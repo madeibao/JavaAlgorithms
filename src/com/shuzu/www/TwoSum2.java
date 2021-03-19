@@ -14,7 +14,6 @@ public class TwoSum2 {
 
     private static int[] sum2(int[] nums, int target) {
 
-
         int[] res = new int[2];
         HashMap<Integer, Integer> map2 = new HashMap<>();
 

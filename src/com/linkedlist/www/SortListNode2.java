@@ -9,6 +9,7 @@ package com.linkedlist.www;
  * <p>
  * 链表的排序操作。
  **/
+
 public class SortListNode2 {
     public ListNode sortList(ListNode head) {
         return head == null ? null : mergeSort(head);
@@ -19,6 +20,7 @@ public class SortListNode2 {
         if (head.next == null) {
             return head;
         }
+
         ListNode p = head, q = head, pre = null;
         while (q != null && q.next != null) {
             pre = p;

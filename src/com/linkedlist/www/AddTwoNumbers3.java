@@ -44,8 +44,8 @@ public class AddTwoNumbers3 {
     }
 
     public static void main(String[] args) {
-        int[] nums1 = {7, 2, 4, 3};
-        int[] nums2 = {5, 6, 4};
+        int[] nums1 = {9,3,7};
+        int[] nums2 = {6,3};
         ListNode node1 = new ListNode(nums1);
         ListNode node2 = new ListNode(nums2);
         ListNode node3 = add(node1, node2);

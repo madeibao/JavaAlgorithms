@@ -27,6 +27,7 @@ public class CountdownLatchExample {
             });
         }
         countDownLatch.await();
+
         System.out.println("end");
         executorService.shutdown();
     }

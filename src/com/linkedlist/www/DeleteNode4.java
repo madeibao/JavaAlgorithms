@@ -27,7 +27,8 @@ public class DeleteNode4 {
                 head = head.next;
             }
             return deleteDuplicates(head.next);
-        } else {
+        }
+        else {
             head.next = deleteDuplicates(head.next);
         }
         return head;

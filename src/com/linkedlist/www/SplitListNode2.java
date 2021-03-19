@@ -64,7 +64,12 @@ public class SplitListNode2 {
         return l1.next;
     }
 
-
+    /**
+     * 链表根据一个元素来进行分割。
+     * @param head
+     * @param x
+     * @return
+     */
     private static ListNode partition2(ListNode head, int x) {
 
         ListNode dummy1 = new ListNode(-1);
@@ -94,9 +99,9 @@ public class SplitListNode2 {
     public static void main(String[] args) {
 
         ListNode head = new ListNode(new int[]{1, 4, 3, 2, 5, 2});
-        ListNode res = partition(head, 3);
+        ListNode res = partition2(head, 3);
         while (res != null) {
-            System.out.println(res.val + " ");
+            System.out.print(res.val + " ");
             res = res.next;
         }
     }

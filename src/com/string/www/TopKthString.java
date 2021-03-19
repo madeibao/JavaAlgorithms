@@ -25,6 +25,7 @@ public class TopKthString {
         PriorityQueue<String> minHeap = new PriorityQueue((o1, o2) ->
                 (map.get(o1) - map.get(o2) == 0 ? ((String) o2).compareTo(((String) o1)) : map.get(o1) - map.get(o2)));
 
+
         for (String word : map.keySet()) {
             minHeap.add(word);
             if (minHeap.size() > k) {

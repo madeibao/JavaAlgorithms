@@ -19,8 +19,6 @@ public class ReverseListNode2 {
             head = next;
         }
         return newHead.next;
-
-
     }
 
     public static void main(String[] args) {

@@ -95,13 +95,13 @@ public class IPTest {
         strTemp[3] = binaTemp.substring(binaTemp.length() - 8, binaTemp.length());
 
         StringBuilder sb = new StringBuilder();
-        sb.append(String.valueOf(Integer.parseInt(strTemp[0], 2)));
+        sb.append((Integer.parseInt(strTemp[0], 2)));
         sb.append(".");
-        sb.append(String.valueOf(Integer.parseInt(strTemp[1], 2)));
+        sb.append((Integer.parseInt(strTemp[1], 2)));
         sb.append(".");
-        sb.append(String.valueOf(Integer.parseInt(strTemp[2], 2)));
+        sb.append((Integer.parseInt(strTemp[2], 2)));
         sb.append(".");
-        sb.append(String.valueOf(Integer.parseInt(strTemp[3], 2)));
+        sb.append((Integer.parseInt(strTemp[3], 2)));
 
         return sb.toString();
     }

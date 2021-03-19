@@ -1,5 +1,7 @@
 package com.shuzu.www;
 
+import java.util.Arrays;
+
 /**
  * @ClassName EncDistance
  * @Author：Mayuan
@@ -7,9 +9,6 @@ package com.shuzu.www;
  * @Description TODO
  * @Version 1.0
  **/
-
-
-import java.util.Arrays;
 
 public class EncDistance {
 
@@ -29,7 +28,6 @@ public class EncDistance {
         }
         return res;
     }
-
 
     public static void main(String[] args) {
 

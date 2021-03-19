@@ -9,6 +9,7 @@ package com.string.www;
  * <p>
  * 两个亲密的字符串的结果值
  * 如果一个字符串中的两个字符交换可以得到另外的一个字符，则为亲密字符串。
+ * 判断是否为亲密的字符串。
  **/
 public class BuddyString {
     public static boolean buddyStrings(String A, String B) {

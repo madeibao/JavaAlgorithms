@@ -7,6 +7,7 @@ package com.string.www;
  * @Description TODO
  * @Version 1.0
  **/
+
 public class LongestPalindrome4 {
     public static String longestPalindrome(String s) {
         if (s.equals("")) {

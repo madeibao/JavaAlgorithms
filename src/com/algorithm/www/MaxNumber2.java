@@ -20,6 +20,7 @@ public class MaxNumber2 {
         for (int j : count) {
             System.out.print(j + " ");
         }
+
         System.out.println();
         System.out.println("--------------------------------------------------");
         for (int i = 0; i < chs.length; i++) {

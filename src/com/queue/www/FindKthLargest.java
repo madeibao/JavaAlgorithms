@@ -27,7 +27,7 @@ import java.util.PriorityQueue;
  **/
 public class FindKthLargest {
     private static int find(int[] nums, int k) {
-        PriorityQueue<Integer> q = new PriorityQueue<>((o1, o2) -> o1 - o2);
+        PriorityQueue<Integer> q = new PriorityQueue<>();
         for (int i = 0; i < nums.length; i++) {
             q.add(nums[i]);
             if (q.size() > k) {

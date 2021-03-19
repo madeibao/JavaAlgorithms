@@ -64,7 +64,8 @@ public class SumOfThree {
     public static void main(String[] args) {
 
         int[] nums = {-1, 0, 1, 2, -1, -4};
-        List<List<Integer>> res = threeSum(nums);
+        int[] nums2 = {-2,0,1,1,2};
+        List<List<Integer>> res = threeSum(nums2);
         for (List<Integer> t : res) {
             for (Integer i : t) {
                 System.out.print(i + " ");

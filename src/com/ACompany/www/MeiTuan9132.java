@@ -57,7 +57,6 @@ public class MeiTuan9132 {
         }
     }
 
-
     public static boolean isMatch(int i, int j, int[][] array) {
         for (int k = 0; k < array[0].length; k++) {
             if (array[i][k] != array[j][k]) {

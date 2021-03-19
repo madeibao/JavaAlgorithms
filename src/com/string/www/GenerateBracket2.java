@@ -16,31 +16,35 @@ import java.util.List;
  **/
 public class GenerateBracket2 {
 
-    private static List<String> generate(int n) {
-
-        List<String> res = new ArrayList<>();
-        if (n < 0) {
+    public static List<String> generate(int n) {
+        ArrayList<String> res =new ArrayList<>();
+        if(n<=0) {
             return res;
         }
-
-        helper(n, n, "", res);
+        helper("",res,n,n);
         return res;
     }
 
-    private static void helper(int left, int right, String temp, List<String> list) {
-        if (left < 0 || right < 0 || left > right) {
+    private static void helper(String res, ArrayList<String> list2, int left, int right) {
+        if(left<0||right<0||left>right) {
             return;
         }
-        if (left == 0 && right == 0) {
-            list.add(temp);
+        if(left==0&&right==0) {
+            list2.add(res);
         }
 
-        helper(left - 1, right, temp + "(", list);
-        helper(left, right - 1, temp + ")", list);
-    }
+        helper(res+"(",list2, left-1, right);
+        helper(res+")",list2, left, right-1);
 
+    }
     public static void main(String[] args) {
-        List<String> temp = generate(3);
-        temp.forEach(System.out::println);
+        int n = 3;
+        List<String> res = generate(n);
+        for (String re : res) {
+            System.out.println(re);
+        }
     }
 }
+
+
+

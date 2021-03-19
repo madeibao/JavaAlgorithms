@@ -12,7 +12,7 @@ import java.util.Scanner;
  * 分割数组来达到一定的要求
  **/
 public class SplitArray {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
             int n = scanner.nextInt();

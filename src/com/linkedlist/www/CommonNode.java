@@ -7,6 +7,8 @@ package com.linkedlist.www;
  * @Description TODO
  * @Version 1.0
  * leetcode 160 笔试题目。
+ *
+ *  // 两个链表的第一个
  **/
 public class CommonNode {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
@@ -40,6 +42,8 @@ public class CommonNode {
         }
         return longListNode;
     }
+
+
 
     private static int getLength(ListNode list) {
         int result = 0;

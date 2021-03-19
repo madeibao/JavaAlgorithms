@@ -40,7 +40,7 @@ public class MiddleNumberList {
 
     public static void main(String[] args) {
 
-        int[] nums = {1, 2, 3, 4, 5};
+        int[] nums = {1, 2, 3, 4,};
         ListNode head = new ListNode(nums);
         System.out.println(middleNode2(head).val);
     }

@@ -21,6 +21,8 @@ public class TopKthNums {
         return map.entrySet()
                 .stream()
                 .sorted((m1, m2) -> m2.getValue() - m1.getValue())
+
+                // 限制数量为k,返回的是数组。
                 .limit(k)
                 .mapToInt(Map.Entry::getKey)
                 .toArray();

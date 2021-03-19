@@ -11,7 +11,6 @@ package com.linkedlist.www;
  **/
 public class ReverseNode8 {
 
-
     private static ListNode reverse(ListNode head) {
 
         ListNode pre = null;

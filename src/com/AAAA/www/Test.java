@@ -10,20 +10,5 @@ package com.AAAA.www;
 
 public class Test {
 
-    private static int add(int a,int b) {
-        int temp, temp2;
-        while (b!=0) {
-            temp =a^b;
-            temp2= (a&b)<<1;
-            a = temp;
-            b = temp2;
-        }
-
-        return a;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(add(3,4));
-    }
 }
 

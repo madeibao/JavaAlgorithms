@@ -35,13 +35,14 @@ public class StringSort5 {
             }
         });
 
-        // 取出前k个放到res中
+        // 取出前k个放到res中， 将键放进去。
         List<String> res = new ArrayList<>();
         for (int i = 0; i < k; i++) {
             res.add(list.get(i).getKey());
         }
         return res;
     }
+
 
     public static void main(String[] args) {
         String[] str2 = {"i", "love", "leetcode", "i", "love", "coding"};

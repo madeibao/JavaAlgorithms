@@ -10,7 +10,6 @@ package com.string.www;
  * 条件排序。
  **/
 
-
 import java.util.Set;
 import java.util.TreeMap;
 
@@ -19,6 +18,7 @@ class Person implements Comparable<Person> {
     String name;
 
     public Person() {
+
     }
 
     public Person(int age, String name) {

@@ -34,6 +34,7 @@ public class SetZeros {
             }
         }
 
+
         // Iterate over the array once again and using the first row and first column, update the elements.
         for (int i = 1; i < R; i++) {
             for (int j = 1; j < C; j++) {

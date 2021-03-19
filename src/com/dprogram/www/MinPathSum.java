@@ -33,7 +33,8 @@ public class MinPathSum {
                 } else if (i == 0) {
                     // 只能从左侧走到该位置
                     dp[j] = dp[j - 1];
-                } else {
+                }
+                else {
                     dp[j] = Math.min(dp[j - 1], dp[j]);
                 }
                 dp[j] += grid[i][j];

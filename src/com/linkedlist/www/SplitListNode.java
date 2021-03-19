@@ -7,6 +7,7 @@ package com.linkedlist.www;
  * @Description TODO
  * @Version 1.0
  **/
+
 public class SplitListNode {
     public static ListNode res(ListNode head) {
         if (head.next == null) {

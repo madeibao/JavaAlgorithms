@@ -10,6 +10,8 @@ package com.shuzu.www;
  * 数组的特殊的乘法内容
  * 构建乘积数组。
  **/
+
+
 public class ShuZuMultiply {
     public int[] constructArr(int[] a) {
         if (a.length == 0) {

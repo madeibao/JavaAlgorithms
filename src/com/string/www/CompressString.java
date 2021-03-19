@@ -41,6 +41,7 @@ public class CompressString {
                 cnt = 1;
             }
         }
+
         return sb.append(cnt).length() < S.length() ? sb.toString() : S;
     }
 

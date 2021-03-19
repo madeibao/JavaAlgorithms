@@ -15,6 +15,8 @@ public class ReverseKthNode3 {
         ListNode slow = head;
         ListNode fast = head;
 
+
+        // 快慢指针，两个内容同步来进行。
         for (int i = 0; i < k; i++) {
             fast = fast.next;
         }

@@ -13,29 +13,32 @@ import java.util.List;
  * 给定一个数字来生成一个合法的括号结果
  **/
 public class GenerateBracket {
-    public static List<String> generateParenthesis(int n) {
-        List<String> res = new ArrayList<String>();
+
+    private static List<String> generate(int n) {
+
+        List<String> res = new ArrayList<>();
+        if (n < 0) {
+            return res;
+        }
+
         helper(n, n, "", res);
         return res;
     }
 
-    static void helper(int left, int right, String out, List<String> res) {
+    private static void helper(int left, int right, String temp, List<String> list) {
         if (left < 0 || right < 0 || left > right) {
             return;
         }
-
         if (left == 0 && right == 0) {
-            res.add(out);
-            return;
+            list.add(temp);
         }
-        helper(left - 1, right, out + "(", res);
-        helper(left, right - 1, out + ")", res);
+
+        helper(left - 1, right, temp + "(", list);
+        helper(left, right - 1, temp + ")", list);
     }
 
-
     public static void main(String[] args) {
-        int num = 4;
-        List<String> res = generateParenthesis(num);
-        res.forEach(System.out::println);
+        List<String> temp = generate(3);
+        temp.forEach(System.out::println);
     }
 }

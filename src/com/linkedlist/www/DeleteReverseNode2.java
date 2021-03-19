@@ -19,7 +19,7 @@ public class DeleteReverseNode2 {
         fast= dummy;
         slow= dummy;
 
-        while (n>0){
+        while (n>0) {
             fast = fast.next;
             n--;
         }

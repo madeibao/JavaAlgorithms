@@ -55,6 +55,17 @@ public class MergeListNode3 {
 
     public static void main(String[] args) {
 
+        ListNode h1= new ListNode(new int[]{1,2,3});
+        ListNode h2= new ListNode(new int[]{2,3,4});
+        ListNode h3= new ListNode(new int[]{2,5,7});
 
+        ListNode[] temp =new ListNode[]{h1,h2,h3};
+        ListNode res;
+        MergeListNode3 m3 = new MergeListNode3();
+        res =m3.mergeKLists(temp);
+        while (res!=null) {
+            System.out.print(res+" ");
+            res= res.next;
+        }
     }
 }

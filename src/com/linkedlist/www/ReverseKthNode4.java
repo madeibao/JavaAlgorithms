@@ -1,5 +1,6 @@
 package com.linkedlist.www;
 
+
 /**
  * @ClassName ReverseKthNode4
  * @Author：Mayuan
@@ -8,6 +9,7 @@ package com.linkedlist.www;
  * @Version 1.0
  * <p>
  * 返回的是链表的倒数的第k个节点。
+ * 返回倒数的第k个节点返回之后的节点。
  **/
 public class ReverseKthNode4 {
 

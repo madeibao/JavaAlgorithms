@@ -53,7 +53,8 @@ public class SortListNode3 {
                 cur.next = left;
                 cur = cur.next;
                 left = left.next;
-            } else {
+            }
+            else {
                 cur.next = right;
                 cur = cur.next;
                 right = right.next;

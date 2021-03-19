@@ -29,10 +29,12 @@ public class BinarySearch {
         if (arr[middle] > key) {
             //比关键字大则关键字在左区域
             return recursionBinarySearch(arr, key, low, middle - 1);
-        } else if (arr[middle] < key) {
+        }
+        else if (arr[middle] < key) {
             //比关键字小则关键字在右区域
             return recursionBinarySearch(arr, key, middle + 1, high);
-        } else {
+        }
+        else {
             return middle;
         }
     }

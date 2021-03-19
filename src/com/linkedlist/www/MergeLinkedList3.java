@@ -11,6 +11,7 @@ package com.linkedlist.www;
  **/
 public class MergeLinkedList3 {
 
+
     public static ListNode combine(ListNode headA, ListNode headB) {
 
         if (headA == null) {

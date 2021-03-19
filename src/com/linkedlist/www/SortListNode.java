@@ -28,12 +28,14 @@ public class SortListNode {
             return head;
         }
 
+        // 设置快慢的两个指针。
         ListNode fast = head.next, slow = head;
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
 
+        // 断开
         ListNode tmp = slow.next;
         slow.next = null;
 

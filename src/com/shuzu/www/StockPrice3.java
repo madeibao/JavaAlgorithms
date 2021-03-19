@@ -12,7 +12,6 @@ package com.shuzu.www;
  **/
 public class StockPrice3 {
 
-
     // 双重循环的方式，来实现
     public static int maxProfit(int[] prices) {
         int maxprofit = 0;

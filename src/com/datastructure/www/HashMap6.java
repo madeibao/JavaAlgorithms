@@ -18,6 +18,8 @@ public class HashMap6 {
     public static void main(String[] args) {
         int[] nums = {3, 4, 4, 4,};
         Map<Integer, Integer> map = new HashMap<>();
+
+
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }

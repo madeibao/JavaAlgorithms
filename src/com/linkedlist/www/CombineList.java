@@ -26,7 +26,8 @@ public class CombineList {
         // 把队列中元素添加到了新的链表
         ListNode ans = null;
         while (!queue.isEmpty()) {
-            ListNode curr = new ListNode(queue.poll()); // 每次拿出最大元素，并删除
+            // 每次拿出最大元素，并删除
+            ListNode curr = new ListNode(queue.poll());
             curr.next = ans;
             ans = curr;
         }

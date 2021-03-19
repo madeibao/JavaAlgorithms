@@ -8,6 +8,8 @@ package com.linkedlist.www;
  * @Version 1.0
  * <p>
  * 链表来旋转一个位置的结果值
+ *
+ *
  **/
 public class RotateList {
     public static ListNode rotateRight(ListNode head, int k) {

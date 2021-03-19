@@ -18,6 +18,9 @@ public class ReverseKthNode6 {
         ListNode fast = head;
 
         for (int i = 0; i < k; i++) {
+            if(fast==null) {
+                return null;
+            }
             fast = fast.next;
         }
 

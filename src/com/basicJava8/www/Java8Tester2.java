@@ -11,6 +11,7 @@ import java.util.function.Predicate;
  * @Description TODO
  * @Version 1.0
  **/
+
 public class Java8Tester2 {
     public static void main(String[] args) {
 

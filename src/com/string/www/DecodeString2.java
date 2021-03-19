@@ -20,6 +20,7 @@ public class DecodeString2 {
         System.out.println(numDecodings(s));
     }
 
+
     public static int numDecodings(String s) {
         if (s.charAt(0) == '0') {
             return 0;

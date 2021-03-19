@@ -11,6 +11,8 @@ import java.util.Arrays;
  * <p>
  * 多数的元素
  **/
+
+
 public class MajorityNumber2 {
 
     public static int majorityElement(int[] nums) {

@@ -42,6 +42,7 @@ public class ReverseLinkedList {
             stack1.push(head);
             head = head.next;
         }
+
         if (!stack1.isEmpty()) {
             head = stack1.pop();
         }

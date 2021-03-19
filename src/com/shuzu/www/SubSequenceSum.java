@@ -11,6 +11,7 @@ package com.shuzu.www;
  * <p>
  * 有负数的子数组的最大值。
  **/
+
 public class SubSequenceSum {
 
     public static int maxSubArray(int[] nums) {

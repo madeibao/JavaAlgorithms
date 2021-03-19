@@ -26,6 +26,7 @@ public class TopKthNumber4 {
     }
 
     public static int partition(int[] a, int lo, int hi) {
+
         int temp = a[lo];
         while (lo < hi) {
             while (a[hi] <= temp && lo < hi) hi--;
