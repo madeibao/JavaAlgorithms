@@ -13,39 +13,41 @@ public class StringMultiply {
 
     public static String solve(String s, String t) {
 
-        int[] nums = new int[s.length()];
-        int[] numt = new int[t.length()];
+        int lens = s.length();
+        int lent = t.length();
 
-        for(int i=0;i<nums.length;i++) {
+        int[] nums = new int[lens];
+        int[] numt = new int[lent];
+
+        for(int i=0;i<lens;i++) {
             nums[i] = s.charAt(i)-'0';
         }
-
-        for(int j=0;j<numt.length;j++) {
-            nums[j] = t.charAt(j)-'0';
+        for(int j=0;j<lent;j++) {
+            numt[j] = t.charAt(j)-'0';
         }
 
-        int[] res =new int[nums.length+numt.length];
-
-        for(int i=0;i<nums.length;i++) {
-            for(int j=0;j<numt.length;j++) {
-                res[i+j] = nums[i]*numt[j];
+        int[] res = new int[lens+lent];
+        for(int i=0;i<lens;i++) {
+            for(int j=0;j<lent;j++) {
+                res[i+j] += nums[i]*numt[j];
             }
         }
 
-        for(int k = res.length-1;k>0;k--) {
-            res[k]+=res[k-1]/10;
-            res[k-1] = res[k-1]%10;
+        for(int k= res.length-1;k>0;k--) {
+            res[k-1] += res[k]/10;
+            res[k] =res[k]%10;
         }
+
         StringBuilder sb = new StringBuilder();
         for(int i=0;i<res.length-1;i++) {
             sb.append(res[i]);
         }
+
         return sb.toString();
 
     }
 
     public static void main(String[] args) {
         System.out.println(solve("12","34"));
-
     }
 }
