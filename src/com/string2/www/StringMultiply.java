@@ -1,7 +1,5 @@
 package com.string2.www;
 
-import java.util.Arrays;
-
 /**
  * @ClassName StringMultiply
  * @Author：Mayuan
@@ -13,50 +11,41 @@ import java.util.Arrays;
  **/
 public class StringMultiply {
 
-    public static String solve (String s, String t) {
-        int len1 = s.length();
-        int len2 = t.length();
+    public static String solve(String s, String t) {
 
-        int[] nums1 = new int[len1];
-        int[] nums2 = new int[len2];
+        int[] nums = new int[s.length()];
+        int[] numt = new int[t.length()];
 
-        //将字符串的每位取出来，存放在数组中
-        for(int i = 0; i < len1; i++) {
-            nums1[i] = s.charAt(i) - '0';
-        }
-        for(int i = 0; i < len2; i++) {
-            nums2[i] = t.charAt(i) - '0';
+        for(int i=0;i<nums.length;i++) {
+            nums[i] = s.charAt(i)-'0';
         }
 
-        int[] result = new int[len1 + len2];
+        for(int j=0;j<numt.length;j++) {
+            nums[j] = t.charAt(j)-'0';
+        }
 
-        //1. 逐位相乘
-        for(int i = 0; i < len1; i++) {
-            for(int j = 0; j < len2; j++) {
-                result[i + j] += nums1[i] * nums2[j];
+        int[] res =new int[nums.length+numt.length];
+
+        for(int i=0;i<nums.length;i++) {
+            for(int j=0;j<numt.length;j++) {
+                res[i+j] = nums[i]*numt[j];
             }
         }
 
-        System.out.println(Arrays.toString(result));
-
-
-        //2. 从后往前进位
-        for(int k = result.length - 1; k > 0; k--) {
-            result[k - 1] += result[k] / 10;
-            result[k] = result[k] % 10;
+        for(int k = res.length-1;k>0;k--) {
+            res[k]+=res[k-1]/10;
+            res[k-1] = res[k-1]%10;
         }
-
-        // 输出字符串
-        StringBuilder stringBuilder = new StringBuilder();
-
-        for(int i = 0; i < result.length - 1; i++) {
-            stringBuilder.append(result[i]);
+        StringBuilder sb = new StringBuilder();
+        for(int i=0;i<res.length-1;i++) {
+            sb.append(res[i]);
         }
-        return stringBuilder.toString();
+        return sb.toString();
+
     }
 
     public static void main(String[] args) {
-        System.out.println(solve("1234","34"));
+        System.out.println(solve("12","34"));
 
     }
 }
