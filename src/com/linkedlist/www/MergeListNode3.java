@@ -63,9 +63,14 @@ public class MergeListNode3 {
         ListNode res;
         MergeListNode3 m3 = new MergeListNode3();
         res =m3.mergeKLists(temp);
-        while (res!=null) {
-            System.out.print(res+" ");
-            res= res.next;
-        }
+
+        /**
+         *         while (res!=null) {
+         *             System.out.print(res+" ");
+         *             res= res.next;
+         *         }
+         */
+        System.out.println(res);
+
     }
 }

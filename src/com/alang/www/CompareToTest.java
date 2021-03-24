@@ -15,8 +15,8 @@ public class CompareToTest {
 
     public static void main(String[] args) {
         Object[] objArray = {new Person(20, "jack"),
-                new Person(17, "tom"),
-                new Person(27, "aj")};
+                             new Person(17, "tom"),
+                             new Person(27, "aj")};
 
         Arrays.sort(objArray);
         for (Object ob : objArray) {

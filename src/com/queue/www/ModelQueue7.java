@@ -35,6 +35,10 @@ public class ModelQueue7 {
         size = 0;
     }
 
+    /**
+     * 判断链表是否空。
+     * @return
+     */
     public boolean isEmpty() {
         return size == 0;
     }
@@ -45,7 +49,6 @@ public class ModelQueue7 {
 
     /**
      * 向队列里面来添加一个元素。
-     *
      * @param x
      */
     public void offer(int x) {
@@ -55,7 +58,8 @@ public class ModelQueue7 {
             head = new LinkedNode(x);
             tail = head;
             size++;
-        } else {
+        }
+        else {
             tail.next = new LinkedNode(x);
             tail = tail.next;
             size++;

@@ -11,7 +11,6 @@ package com.string2.www;
  *
  **/
 
-
 public class LongestPalindrome {
 
     public static String longestPalindrome(String str) {
@@ -38,7 +37,7 @@ public class LongestPalindrome {
     public static String helper(String s, int i, int j)  {
 
         while(i>=0 && j<s.length()) {
-            if(s.charAt(i)==s.charAt(j)){
+            if(s.charAt(i)==s.charAt(j))  {
                 i--;j++;
             }
             else  {

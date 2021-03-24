@@ -40,5 +40,4 @@ public class DeleteNode4 {
         ListNode temp = deleteDuplicates(head);
         System.out.println(temp);
     }
-
 }

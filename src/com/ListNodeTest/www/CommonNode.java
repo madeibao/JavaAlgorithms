@@ -37,7 +37,7 @@ public class CommonNode {
         m.next = common;
 
         ListNode res = FindFirstCommonNode(head, m);
-        System.out.println(res.toString());
+        System.out.println(res);
 
     }
 }

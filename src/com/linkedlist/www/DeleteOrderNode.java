@@ -55,7 +55,7 @@ public class DeleteOrderNode {
     public static void main(String[] args) {
         int[] nums = {1, 1, 2, 2, 3, 3, 4};
         ListNode node = new ListNode(nums);
-        ListNode node2 = deleteDuplicates(node);
+        ListNode node2 = deleteDuplicates2(node);
         System.out.println(node2);
     }
 }

@@ -54,8 +54,8 @@ public class StringPartition {
         }
     }
 
-
     private static boolean isPalindrome(String s) {
+
         if (s == null || s.length() <= 1) {
             return true;
         }

@@ -53,7 +53,8 @@ public class SumPath {
             if (left == 0) {
                 ret.add(route);
                 return;
-            } else {
+            }
+            else {
                 return;
             }
         }

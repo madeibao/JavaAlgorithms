@@ -15,7 +15,7 @@ public class IsHuiWen {
         if (x < 0) {
             return false;
         }
-        int rem = 0, y = 0;
+        int rem, y = 0;
         int quo = x;
         while (quo != 0) {
             rem = quo % 10;

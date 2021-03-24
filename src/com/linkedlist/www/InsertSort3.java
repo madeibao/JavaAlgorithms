@@ -34,9 +34,7 @@ public class InsertSort3 {
     public static void main(String[] args) {
         ListNode temp = new ListNode(new int[]{2, 3, 2, 34, 2, 2, 2, 45, 9, 23, 23,});
         ListNode res = new InsertSort3().insertionSortList(temp);
-        while (res != null) {
-            System.out.println(res.val);
-            res = res.next;
-        }
+
+        System.out.println(res);
     }
 }

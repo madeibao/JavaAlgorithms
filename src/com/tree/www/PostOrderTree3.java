@@ -14,7 +14,9 @@ package com.tree.www;
 public class PostOrderTree3 {
 
     public static boolean verifyPostorder(int[] postorder) {
-        if (postorder.length < 2) return true;
+        if (postorder.length < 2) {
+            return true;
+        }
         return verify(postorder, 0, postorder.length - 1);
     }
 

@@ -55,6 +55,7 @@ public class StackOrderLegal2 {
         return true;
     }
 
+    // 判断是否为合法的弹入和弹出顺序。
     private static boolean isLegal2(int[] push, int[] pop) {
         if (push == null || pop == null || push.length == 0 || pop.length == 0 || push.length != pop.length) {
             return false;
@@ -70,7 +71,8 @@ public class StackOrderLegal2 {
             if (stack.peek() == pop[popIndex]) {
                 stack.pop();
                 popIndex++;
-            } else {
+            }
+            else {
                 return false;
             }
         }

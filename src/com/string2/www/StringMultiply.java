@@ -27,6 +27,7 @@ public class StringMultiply {
         }
 
         int[] res = new int[lens+lent];
+        // 模拟乘法运算。
         for(int i=0;i<lens;i++) {
             for(int j=0;j<lent;j++) {
                 res[i+j] += nums[i]*numt[j];
@@ -44,7 +45,6 @@ public class StringMultiply {
         }
 
         return sb.toString();
-
     }
 
     public static void main(String[] args) {

@@ -41,7 +41,6 @@ public class BinNumberAdd {
         return c > 0 ? '1' + res : res;
     }
 
-
     public static String addBinary2(String a, String b) {
         Stack<Integer> stack = new Stack<>();
         StringBuilder sb = new StringBuilder();

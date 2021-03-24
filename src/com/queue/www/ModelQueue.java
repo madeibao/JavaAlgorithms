@@ -24,7 +24,6 @@ public class ModelQueue<E> {
 
     /**
      * 弹出的元素内容，就是栈顶元素。
-     *
      * @return
      */
     private synchronized E pop() {

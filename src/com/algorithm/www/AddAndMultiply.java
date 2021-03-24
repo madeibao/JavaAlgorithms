@@ -13,7 +13,6 @@ public class AddAndMultiply {
         int res1 = 0;
         while (n > 0) {
             res1 += n % 10;
-            ;
             n = n / 10;
         }
 

@@ -21,9 +21,23 @@ public class ReverseNode {
         return pre;
     }
 
+    /**
+     * 递归实现链表逆置。
+     */
+    public static ListNode reverseTest(ListNode head) {
+        // 递归一定有结束条件。
+        if(head==null||head.next==null) {
+            return head;
+        }
+
+        ListNode temp = reverseTest(head.next);
+        head.next.next = head;
+        head.next = null;
+        return temp;
+    }
     public static void main(String[] args) {
         ListNode node =new ListNode(new int[]{1,2,3});
-        ListNode res = reverse(node);
+        ListNode res = reverseTest(node);
         System.out.println(res.toString());
 
     }

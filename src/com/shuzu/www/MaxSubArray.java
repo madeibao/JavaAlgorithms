@@ -14,8 +14,10 @@ public class MaxSubArray {
         if (len == 0) {
             return 0;
         }
-        if (len == 1)
+        if (len == 1) {
             return nums[0];
+        }
+
         int[] dp = new int[len];
         dp[0] = nums[0];
         int max = dp[0];

@@ -38,7 +38,7 @@ public class ReverseNodeFrom {
     public static void main(String[] args) {
         ListNode node =new ListNode(new int[]{1,2,3,4,5,6});
         ListNode res = reverseBetween(node, 2,4);
-        System.out.println(res.toString());
+        System.out.println(res);
 
     }
 }

@@ -33,6 +33,7 @@ public class MergeTree {
     }
 
     public static void main(String[] args) {
+
         TreeNode root2 = new TreeNode(1);
         TreeNode newf2 = new TreeNode(3);
         TreeNode newr2 = new TreeNode(2);
