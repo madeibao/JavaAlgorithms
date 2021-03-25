@@ -54,8 +54,13 @@ public class IslandNumber {
                          {'0','0','0','1','1'},
                          {'0','0','0','0','0'},
                          {'0','0','1','1','1'}};
+
+        char[][] ch = {{'0','1','0'},
+                {'1','0','0'},
+                {'1','0','0'}};
         IslandNumber test = new IslandNumber();
         System.out.println(test.solve(num));
+        System.out.println(test.solve(ch));
     }
 }
 

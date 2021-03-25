@@ -41,7 +41,8 @@ public class MajorityNum {
         for (int num : nums) {
             if (num == major) {
                 count += 1;
-            } else {
+            }
+            else {
                 if (--count == 0) {
                     // 重新的进行内容的赋值的操作。
                     count = 1;

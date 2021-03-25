@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="79e9d2a8-8ff1-4892-b02d-40dd82ac1b11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/IslandNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/IslandNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/MajorityNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/MajorityNum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <recent name="E:\JavaWorkSpace2\MyWorkSpace2\src\com\sort\www" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
+  <component name="RunManager" selected="Application.B">
     <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.AAAA.www.B" />
       <module name="MyWorkSpace2" />
@@ -90,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockPrice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shuzu.www.StockPrice2" />
+    <configuration name="MajorityNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shuzu.www.MajorityNum" />
       <module name="MyWorkSpace2" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.AAAA.www.Test" />
+    <configuration name="StockPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shuzu.www.StockPrice" />
       <module name="MyWorkSpace2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.AAAA.www.*" />
+          <option name="PATTERN" value="com.shuzu.www.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shuzu.www.TwoSum" />
+    <configuration name="XiaoMiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shuzu.www.XiaoMiTest" />
       <module name="MyWorkSpace2" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.StockPrice2" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.B" />
         <item itemvalue="Application.IslandNumber" />
+        <item itemvalue="Application.XiaoMiTest" />
+        <item itemvalue="Application.StockPrice" />
+        <item itemvalue="Application.MajorityNum" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +195,7 @@
       <workItem from="1616290605479" duration="13803000" />
       <workItem from="1616397564435" duration="4423000" />
       <workItem from="1616566530666" duration="10994000" />
+      <workItem from="1616586981998" duration="3945000" />
     </task>
     <servers />
   </component>
@@ -214,25 +217,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="404" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616398124732" />
-    <state width="1877" height="220" key="GridCell.Tab.0.bottom" timestamp="1616586606417">
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom" timestamp="1616596119661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616586606417" />
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616596119661" />
     <state width="1493" height="319" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616236477264" />
-    <state width="1877" height="220" key="GridCell.Tab.0.center" timestamp="1616586606417">
+    <state width="1877" height="220" key="GridCell.Tab.0.center" timestamp="1616596119661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616586606417" />
+    <state width="1877" height="220" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616596119661" />
     <state width="1493" height="319" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616236477264" />
-    <state width="1877" height="220" key="GridCell.Tab.0.left" timestamp="1616586606416">
+    <state width="1877" height="220" key="GridCell.Tab.0.left" timestamp="1616596119661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616586606416" />
+    <state width="1877" height="220" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616596119661" />
     <state width="1493" height="319" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616236477264" />
-    <state width="1877" height="220" key="GridCell.Tab.0.right" timestamp="1616586606417">
+    <state width="1877" height="220" key="GridCell.Tab.0.right" timestamp="1616596119661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="220" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616586606417" />
+    <state width="1877" height="220" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616596119661" />
     <state width="1493" height="319" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616236477264" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1616403871757">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -254,10 +257,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614265358603" />
-    <state x="354" y="185" width="798" height="569" key="com.intellij.ide.util.TipDialog" timestamp="1616566549171">
+    <state x="354" y="185" width="798" height="569" key="com.intellij.ide.util.TipDialog" timestamp="1616586989830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="354" y="185" width="798" height="569" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616566549171" />
+    <state x="354" y="185" width="798" height="569" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616586989830" />
     <state x="278" y="23" width="712" height="674" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1614914821283" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616145599288">
       <screen x="0" y="0" width="1920" height="1040" />
