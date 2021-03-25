@@ -10,7 +10,7 @@ package com.algorithm.www;
  * 交换两个数字
  **/
 public class ExchangeNumber {
-
+    
     private static void exchange(int[] nums) {
         int temp;
         temp = nums[0];
