@@ -33,6 +33,8 @@ public class TopKthString2 {
         // 把这些内容给追加进去。
         List<String> res = new ArrayList<>();
         for (int i = 0; i < k; i++) {
+
+            // 获得键值对的键
             res.add(list2.get(i).getKey());
         }
 

@@ -1,7 +1,5 @@
 package com.algorithm.www;
 
-import java.util.Arrays;
-
 /**
  * @ClassName NumberMultiply
  * @Author：Mayuan
@@ -36,23 +34,25 @@ public class NumberMultiply {
                 res[i+j]+= numa[i]*numb[j];
             }
         }
-        System.out.println(Arrays.toString(res));
+
         // 从后面对前面来进行相加,求和。
-        for(int k = res.length-1;k>0;k--) {
-            res[k-1] += res[k]/10;
-            res[k] =res[k]%10;
-        }
 
         StringBuilder sb =new StringBuilder();
-        for(int i=0;i<res.length-1;i++) {
-            sb.append(res[i]);
+        for(int i=res.length-1;i>0;i--) {
+            res[i-1]+=res[i]/10;
+            res[i] = res[i]%10;
         }
+
+        for(int j=0;j<res.length-1;j++) {
+            sb.append(res[j]);
+        }
+
         return sb.toString();
     }
 
     public static void main(String[] args) {
-        String stra = "99";
-        String strb = "99";
+        String stra = "12";
+        String strb = "34";
         System.out.println(Multiply(stra, strb));
     }
 }

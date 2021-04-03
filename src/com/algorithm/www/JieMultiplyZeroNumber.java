@@ -11,6 +11,9 @@ package com.algorithm.www;
  * 输入: 3
  * 输出: 0
  * 解释: 3! = 6, 尾数中没有零。
+ *
+ *
+ *
  **/
 public class JieMultiplyZeroNumber {
     public static int trailingZeroes(int n) {

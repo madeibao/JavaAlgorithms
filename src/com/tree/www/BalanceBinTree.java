@@ -15,6 +15,8 @@ public class BalanceBinTree {
         if (root == null) {
             return true;
         }
+
+        // 左右的高度差大于1,则返回错误节点。
         if (Math.abs(getHeight(root.left) - getHeight(root.right)) > 1) {
             return false;
         }

@@ -10,10 +10,13 @@ import java.util.Stack;
  * @Date 2020/9/24 16:07
  * @Description TODO
  * @Version 1.0
+ *
+ * 二叉树的先序遍历。
  **/
 public class PreOrderTree4 {
 
     public List<Integer> preorderTraversal(TreeNode root) {
+
         Stack<TreeNode> st = new Stack<>();
         List<Integer> list = new ArrayList<>();
         if (root == null) {

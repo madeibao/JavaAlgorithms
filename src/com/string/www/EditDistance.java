@@ -42,8 +42,8 @@ public class EditDistance {
         // 第一列
         for (int i = 1; i <= n1; i++) {
             dp[i][0] = dp[i - 1][0] + 1;
-        }
 
+        }
         for (int i = 1; i <= n1; i++) {
             for (int j = 1; j <= n2; j++) {
                 if (word1.charAt(i - 1) == word2.charAt(j - 1)) {

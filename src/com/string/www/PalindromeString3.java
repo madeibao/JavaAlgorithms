@@ -8,6 +8,8 @@ package com.string.www;
  * @Version 1.0
  * <p>
  * 一个字符串能否通过删除或者是添加字符串来变成一个回文的字符串的结果
+ * 最多增加和删除一个字符来完成。
+ *
  **/
 public class PalindromeString3 {
     public static boolean validPalindrome(String s) {

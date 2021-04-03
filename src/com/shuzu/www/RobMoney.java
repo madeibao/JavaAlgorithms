@@ -48,9 +48,37 @@ public class RobMoney {
         return f[len - 1];
     }
 
+
+    /**
+     * 迭代的实现方法。
+     * @param args
+     */
+
+    static int rob2(int[] nums) {
+        if(nums.length==0||nums==null) {
+            return -1;
+        }
+        if(nums.length==1) {
+            return nums[0];
+        }
+
+        if(nums.length==2) {
+            return Math.max(nums[0],nums[1]);
+        }
+
+        int pre = 0, cur=  0;
+        for(int i=0;i<nums.length;i++) {
+            int temp = Math.max(pre+nums[i], cur);
+            pre = cur;
+            cur = temp;
+        }
+        return cur;
+    }
     public static void main(String[] args) {
         int[] num = {2, 7, 9, 3, 1};
         System.out.println(rob(num));
+        // STOPSHIP: 2021/4/2/0002
+        System.out.println(rob2(num));
     }
 }
 

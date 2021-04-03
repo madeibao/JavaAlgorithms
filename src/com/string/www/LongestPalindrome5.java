@@ -9,6 +9,7 @@ package com.string.www;
  * <p>
  * <p>
  * 最长的回文子串。
+ * 中心扩展法来解决。
  **/
 
 

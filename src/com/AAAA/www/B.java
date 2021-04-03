@@ -7,11 +7,9 @@ package com.AAAA.www;
  * @Description TODO
  * @Version 1.0
  *
- * 旋转数组的最小的数字。
  **/
 
 public class B {
-
 
 
 }

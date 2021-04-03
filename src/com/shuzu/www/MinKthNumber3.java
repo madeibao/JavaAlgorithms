@@ -19,7 +19,6 @@ public class MinKthNumber3 {
         if(k<=0) {
             return new int[]{};
         }
-
         PriorityQueue<Integer> queue =new PriorityQueue<>((o1,o2)->o2-o1);
 
         for(int num:arr) {

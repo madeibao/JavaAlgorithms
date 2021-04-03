@@ -24,6 +24,11 @@ import java.util.Scanner;
  * 输出
  * 复制
  * jklmnop
+ //
+1AB2345CD
+12345EF
+2345
+
  **/
 public class CommonString2 {
     public static void main(String[] args) {

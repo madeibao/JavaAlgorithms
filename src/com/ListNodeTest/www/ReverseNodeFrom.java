@@ -19,6 +19,9 @@ public class ReverseNodeFrom {
 
         ListNode p = dummy;
         ListNode q = head;
+
+        // 由于是从0开始计数的，所以，循环到m-1
+        // 到 m-1后，再有一个指针， p = p.next
         for(int i=0;i<m-1;i++) {
             p = p.next;
             q = q.next;

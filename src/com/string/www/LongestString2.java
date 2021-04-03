@@ -25,16 +25,16 @@ public class LongestString2 {
         return ans;
     }
 
+
     /**
-     * 用来判断字符串内的字符内容是否为单一的字符内容。
-     *
+     * 用来判断字符串内的字符内容是否为互不相同的内容。
      * @param s
      * @param start
      * @param end
      * @return
      */
     public static boolean allUnique(String s, int start, int end) {
-        Set<Character> set = new HashSet<Character>();
+        Set<Character> set = new HashSet<>();
         for (int i = start; i < end; i++) {
             Character ch = s.charAt(i);
             if (set.contains(ch)) {
@@ -47,7 +47,12 @@ public class LongestString2 {
 
     public static void main(String[] args) {
         String s = "leetcode";
+
+        // 最长的不重复的子串长度是abc, 长度为3。
+        String str2 = "abcabcbb";
         System.out.println(lengthOfLongestSubstring(s));
+        System.out.println(lengthOfLongestSubstring(str2));
+
     }
 }
 

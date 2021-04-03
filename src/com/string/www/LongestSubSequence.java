@@ -14,8 +14,11 @@ import java.util.Scanner;
  * 求最长的公共的子序列，要求不一定是连续的。
  * 两个字符串中的共有的字符内容。
  * <p>
- * abcbdab
- * bdcaba
+ *
+abcbdab
+bdcaba
+
+
  **/
 public class LongestSubSequence {
 
@@ -62,6 +65,7 @@ public class LongestSubSequence {
             }
         }
 
+        /**
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j <= m; j++) {
                 System.out.print(dp[i][j] + " ");
@@ -76,7 +80,7 @@ public class LongestSubSequence {
             }
             System.out.println();
         }
-
+        **/
 
         StringBuilder ans = new StringBuilder();
         for (int i = n, j = m; i >= 0 && j >= 0; ) {

@@ -10,6 +10,7 @@ package com.ListNodeTest.www;
  * 判断链表是否有环。
  * 快慢指针来确定链表是否有环状结构。
  *
+ * 通过双指针算法来实现。
  **/
 public class HasCircle {
 

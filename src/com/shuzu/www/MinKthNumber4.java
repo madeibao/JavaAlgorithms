@@ -10,6 +10,8 @@ import java.util.PriorityQueue;
  * @Version 1.0
  * <p>
  * 一个数组中的最小的k个数字。
+ *
+ * //最小的k 个数字。
  **/
 public class MinKthNumber4 {
     public static int[] getLeastNumbers(int[] arr, int k) {
@@ -17,6 +19,7 @@ public class MinKthNumber4 {
             return new int[]{};
         }
 
+        // 默认的是小的在前面。
         PriorityQueue<Integer> res = new PriorityQueue<>((o1, o2) -> (o2 - o1));
 
         for (int num : arr) {

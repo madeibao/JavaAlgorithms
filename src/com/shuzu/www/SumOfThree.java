@@ -13,11 +13,11 @@ import java.util.List;
  * <p>
  * 三个数字的和
  **/
+
 public class SumOfThree {
     public static List<List<Integer>> threeSum(int[] nums) {
 
         List<List<Integer>> res = new ArrayList<List<Integer>>();
-
         // 首先来进行排序。
         Arrays.sort(nums);
         if (nums.length < 3) {
@@ -31,7 +31,6 @@ public class SumOfThree {
 
             int j = i + 1;
             int k = nums.length - 1;
-
             while (j < k) {
 
                 if (nums[i] + nums[j] + nums[k] < target) {
@@ -40,12 +39,14 @@ public class SumOfThree {
                     while (nums[j] == nums[j - 1] && j < k) {
                         j++;
                     }
-                } else if (nums[i] + nums[j] + nums[k] > target) {
+                }
+                else if (nums[i] + nums[j] + nums[k] > target) {
                     --k;
                     while (nums[k] == nums[k + 1]) {
                         --k;
                     }
-                } else {
+                }
+                else {
                     res.add(Arrays.asList(nums[i], nums[j], nums[k]));
                     ++j;
                     --k;
@@ -72,6 +73,5 @@ public class SumOfThree {
             }
             System.out.println();
         }
-
     }
 }

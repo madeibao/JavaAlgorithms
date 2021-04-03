@@ -27,11 +27,10 @@ public class MaxGift2 {
         return grid[row - 1][col - 1];
     }
 
-
     public static void main(String[] args) {
         int[][] res = new int[][]{{1, 3, 1},
-                {1, 5, 1},
-                {4, 2, 1}};
+                                  {1, 5, 1},
+                                  {4, 2, 1}};
         System.out.println(maxValue(res));
     }
 }

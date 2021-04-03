@@ -15,7 +15,8 @@ public class TreeToList {
             //左子树为 null，直接考虑下一个节点
             if (root.left == null) {
                 root = root.right;
-            } else {
+            }
+            else {
                 // 找左子树最右边的节点
                 TreeNode pre = root.left;
                 while (pre.right != null) {

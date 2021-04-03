@@ -24,6 +24,17 @@ public class StockPrice {
         return profit;
     }
 
+    private int maxProfit2(int[] prices) {
+        int profit = 0;
+        for(int i=1;i<prices.length;i++) {
+            int temp = prices[i]-prices[i-1];
+            if(temp>0) {
+                profit+= temp;
+            }
+        }
+
+        return profit;
+    }
     public static void main(String[] args) {
 
         int[] nums = {7, 1, 5, 3, 6, 4};

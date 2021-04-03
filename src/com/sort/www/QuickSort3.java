@@ -9,7 +9,7 @@ package com.sort.www;
  **/
 public class QuickSort3 {
     public static void main(String[] args) {
-        int[] a = {12, 23, 24, 11, 66, 43, 98, 70, 1, 2};
+        int[] a = {2,3,5,4,6,8};
         System.out.println("sort before:");
         printArray(a);
         quickSort(a, 0, a.length - 1);

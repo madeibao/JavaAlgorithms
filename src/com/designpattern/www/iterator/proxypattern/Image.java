@@ -9,6 +9,8 @@ package com.designpattern.www.iterator.proxypattern;
  * <p>
  * 代理模式，火车站买票和代售点一样的能够买票。
  * 代售点就是代理了其中的模式的内容。
+ *
+ *
  **/
 
 public interface Image {

@@ -10,6 +10,8 @@ package com.basicJava8.www;
  * Java的流式的计算与实现
  **/
 public class JavaStream {
+
+
     public static void main(String[] args) {
 
     }

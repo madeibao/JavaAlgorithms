@@ -12,6 +12,8 @@ package com.designpattern.www.iterator.singleinstance;
  **/
 public class Singleton5 {
 
+
+    // 一个静态的内部类实现。
     private static class SingletonHolder {
         private static final Singleton5 INSTANCE = new Singleton5();
     }

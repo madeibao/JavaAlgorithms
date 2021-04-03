@@ -10,7 +10,6 @@ package com.string.www;
  * lang包下面的compareTo接口和方法。
  **/
 
-
 public class StringLangTest {
 
     public static void main(String[] args) {
