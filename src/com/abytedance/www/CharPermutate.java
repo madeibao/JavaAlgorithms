@@ -11,8 +11,6 @@ package com.abytedance.www;
  *
  **/
 public class CharPermutate {
-
-
     static void permutate(char[]ch, int left, int right) {
         if(right<=1) {
             return;

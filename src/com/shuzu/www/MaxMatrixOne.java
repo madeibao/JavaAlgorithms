@@ -63,7 +63,10 @@ public class MaxMatrixOne {
         return max;
     }
 
-    //根据二维数组得一维数组
+    /**
+     * 根据二维数组得一维数组
+     */
+
     public static int getMaxArea(int[][] arr) {
         if (arr == null || arr.length == 0 || arr[0].length == 0) return 0;
         //首先得到height数值

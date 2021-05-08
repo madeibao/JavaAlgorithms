@@ -8,6 +8,25 @@ package com.tree.www;
  * @version: 1.0
  * <p>
  * 二叉树的基本的构造节点
+
+TreeNode n1 = new TreeNode(1);
+TreeNode nl2 = new TreeNode(2);
+TreeNode nr2 = new TreeNode(5);
+TreeNode nll3 = new TreeNode(3);
+TreeNode nlr4 = new TreeNode(4);
+TreeNode nrr5 = new TreeNode(6);
+
+n1.left = nl2;
+n1.right = nr2;
+
+nl2.left = nll3;
+nl2.right = nlr4;
+
+nr2.right = nrr5;
+
+
+
+
  **/
 public class TreeNode {
     int val;
@@ -96,9 +115,9 @@ public class TreeNode {
         // -------------------------------------------------------------
         // 构造一棵树
         /**
-         1
-         2               5
-         3           4                   6
+                           1
+                2                     5
+         3           4                      6
 
          */
         TreeNode n1 = new TreeNode(1);
@@ -115,7 +134,6 @@ public class TreeNode {
         nl2.right = nlr4;
 
         nr2.right = nrr5;
-
 
         // 一颗二叉搜索树的内容
 

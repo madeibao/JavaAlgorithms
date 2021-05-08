@@ -14,14 +14,17 @@ public class Gcd {
         if (q <= 0 || p <= 0) {
             return 0;
         }
+        
         if (p < q) {
             int temp = p;
             p = q;
             q = temp;
         }
+
         if (p % q == 0) {
             return q;
-        } else {
+        }
+        else {
             return gcd2(q, p % q);
         }
     }

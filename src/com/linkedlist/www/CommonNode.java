@@ -20,6 +20,7 @@ public class CommonNode {
         return pA;
     }
 
+
     public static ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
         int len1 = getLength(headA);
         int len2 = getLength(headB);
@@ -42,8 +43,6 @@ public class CommonNode {
         }
         return longListNode;
     }
-
-
 
     private static int getLength(ListNode list) {
         int result = 0;

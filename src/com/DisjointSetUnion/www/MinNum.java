@@ -11,6 +11,7 @@ package com.DisjointSetUnion.www;
  * 然多个村庄联通起来的最小的路数。
  **/
 public class MinNum {
+
     public static void main(String[] args) {
 
     }

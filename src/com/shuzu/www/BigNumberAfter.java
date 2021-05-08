@@ -37,7 +37,6 @@ public class BigNumberAfter {
         return res;
     }
 
-
     public static void main(String[] args) {
         int[] res = {73, 74, 75, 71, 69, 72, 76, 73};
         int[] res2 = new BigNumberAfter().dailyTemperatures(res);

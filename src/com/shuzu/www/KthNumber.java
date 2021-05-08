@@ -9,7 +9,6 @@ package com.shuzu.www;
  *
  * 第k大的数字。
  *
- *
  **/
 public class KthNumber {
 
@@ -45,6 +44,7 @@ public class KthNumber {
             }
         }
     }
+
     public int findKthLargest(int[] nums, int k) {
         quickSort(nums, 0, nums.length - 1, k);
         return nums[nums.length - k];

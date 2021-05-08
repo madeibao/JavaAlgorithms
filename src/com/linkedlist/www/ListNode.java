@@ -23,9 +23,6 @@ node4.next = node5;
 node5.next = null;
 
 
-
-
-
  **/
 public class ListNode {
     int val;

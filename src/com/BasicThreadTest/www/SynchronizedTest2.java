@@ -12,6 +12,7 @@ import java.util.concurrent.Executors;
  * <p>
  * Java的sysnchronize的用法
  **/
+
 public class SynchronizedTest2 {
     public void func1() {
         synchronized (this) {

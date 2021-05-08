@@ -35,6 +35,7 @@ public class ReverseNode {
         head.next = null;
         return temp;
     }
+
     public static void main(String[] args) {
         ListNode node =new ListNode(new int[]{1,2,3});
         ListNode res = reverseTest(node);

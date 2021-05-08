@@ -29,7 +29,10 @@ public class ReverseKthNode {
     }
 
     // 构造一个辅助函数
-    // 前面闭区间，后面开区间的范围结构。
+    /**
+     * 前面闭区间，后面开区间的范围结构。
+     */
+
     private static ListNode reverse(ListNode head, ListNode tail) {
         ListNode pre = null;
         while (head!=tail) {
@@ -40,6 +43,8 @@ public class ReverseKthNode {
         }
         return pre;
     }
+
+
     public static void main(String[] args) {
 
         ListNode node = new ListNode(new int[]{1,2,3,4,5,6,7,8,9});

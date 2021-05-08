@@ -13,7 +13,6 @@ package com.linkedlist.www;
  **/
 public class ReverseKthNode4 {
 
-
     public static ListNode getKthFromEnd(ListNode head, int k) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;

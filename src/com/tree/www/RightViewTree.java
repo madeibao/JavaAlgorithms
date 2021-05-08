@@ -35,6 +35,7 @@ public class RightViewTree {
                     queue.add(temp.right);
                 }
 
+                // 如果 遍历到了最后的一个位置上。添加进去。
                 if (i == n - 1) {
                     list2.add(temp.val);
                 }
@@ -42,7 +43,6 @@ public class RightViewTree {
         }
         return list2;
     }
-
 
     public static void main(String[] args) {
 

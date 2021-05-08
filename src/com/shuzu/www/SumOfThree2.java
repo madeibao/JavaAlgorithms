@@ -22,7 +22,7 @@ public class SumOfThree2 {
                 int j=i+1;
                 int k=num.length-1;
                 while(j<k){
-                    if(num[i]+num[j]+num[k]==0){
+                    if(num[i]+num[j]+num[k]==0) {
                         ArrayList<Integer> list=new ArrayList<>();
                         list.add(num[i]);
                         list.add(num[j]);

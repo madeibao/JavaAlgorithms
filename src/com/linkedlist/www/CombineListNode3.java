@@ -8,7 +8,12 @@ package com.linkedlist.www;
  * @Version 1.0
  * <p>
  * 合并两个链表
+ *
+ * 合并两个有序的链表结构。
+ *
  **/
+
+
 public class CombineListNode3 {
 
     public static ListNode combine(ListNode ha, ListNode hb) {

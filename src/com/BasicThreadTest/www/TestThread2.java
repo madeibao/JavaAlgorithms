@@ -19,7 +19,7 @@ public class TestThread2 extends Thread {
     public void run() {
         for (int i = 0; i < 5; i++) {
             for (long k = 0; k < 20; k++) {
-                System.out.println(this.getName() + " :" + i);
+                System.out.println(this.getName() + " : " + i);
             }
         }
     }

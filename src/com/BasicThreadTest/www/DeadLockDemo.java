@@ -6,6 +6,10 @@ package com.BasicThreadTest.www;
  * @Date 2020/8/5 15:01
  * @Description TODO
  * @Version 1.0
+ *
+ * 写一个死锁的案例。
+ *
+ *
  **/
 public class DeadLockDemo {
 

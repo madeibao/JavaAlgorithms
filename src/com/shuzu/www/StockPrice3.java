@@ -9,6 +9,7 @@ package com.shuzu.www;
  * <p>
  * 股票买卖3
  * 股票只能够买和卖一次的情况。
+ * 交易一次的方法。
  **/
 public class StockPrice3 {
 

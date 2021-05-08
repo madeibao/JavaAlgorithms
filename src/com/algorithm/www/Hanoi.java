@@ -27,7 +27,7 @@ public class Hanoi {
     }
 
     public static void main(String[] args) {
-        f(3, 'a', 'b', 'c');
+        f(4, 'a', 'b', 'c');
     }
 
 }

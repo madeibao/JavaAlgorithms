@@ -14,7 +14,6 @@ import java.util.concurrent.Executors;
  * 线程的计数器。
  **/
 
-
 public class CountdownLatchExample {
     public static void main(String[] args) throws InterruptedException {
         final int totalThread = 10;

@@ -2,119 +2,153 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79e9d2a8-8ff1-4892-b02d-40dd82ac1b11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/ThreadThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ListNodeTest/www/DeleteDuplicateNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ListNodeTest/www/DeleteNode2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ListNodeTest/www/HasCircle2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ListNodeTest/www/ReverseKth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ListNodeTest/www/RotateKthNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abytedance/www/CharPermutate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abytedance/www/StringAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/abytedance/www/StringMultiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/AddTwoNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/Rand5ToRand7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/RotateNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backtrack/www/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backtrack/www/Permutation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/backtrack/www/SubSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/basic/www/ConstantPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shuzu/www/KthNumber3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shuzu/www/RobMoney6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/shuzu/www/RobMoney7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stack/www/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stack/www/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stack/www/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stack/www/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/string/www/CommonSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/string/www/LongestSubString2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/string/www/StringPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/string/www/TwoSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/string2/www/LegalString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/string2/www/LongestPalindrome2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/string2/www/SplitWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tree/www/BalanceTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tree/www/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/AAAA/www/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/AAAA/www/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/TestThread4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/ThreadDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/ThreadJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ListNodeTest/www/RemoveKthNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/BigNumberSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/FindOneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/HuiWenNumber2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/KthDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/Rand3ToRand5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/Rand7ToRand10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/SpecialArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/www/TwoSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basic/www/BasicReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basic/www/BasicReflect2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basic/www/InitOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basic/www/Interface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basic/www/TestRe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basicJava8/www/LambdaTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basicexception/www/TryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basicinnerclass/www/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basicinnerclass/www/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basicinnerclass/www/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basicinnerclass/www/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basicinterface/www/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basicinterface/www/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/basicinterface/www/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/datastructure/www/ArrayListDelete2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/datastructure/www/ArrayListTraverse3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/datastructure/www/HashMap7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/datastructure/www/HashMap8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedlist/www/DeleteKthNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedlist/www/DeleteKthNode2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/linkedlist/www/ReorderListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shuzu/www/CombineTwoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shuzu/www/MaxArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shuzu/www/MinNumber5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/string/www/LegalBracket8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/string2/www/LegalString2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tree/www/LevelTraverseTreeH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tree/www/LevelTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tree/www/SumTreeNode2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/AAAA/www/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/AAAA/www/B.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/AAAA/www/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/AAAA/www/C.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/AAAA/www/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/AAAA/www/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/ListNodeTest/www/HasCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/ListNodeTest/www/HasCircle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/ListNodeTest/www/ReverseNodeFrom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/ListNodeTest/www/ReverseNodeFrom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/AddNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/AddNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/JieMultiplyZeroNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/JieMultiplyZeroNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/NumberMultiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/NumberMultiply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/CountdownLatchExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/CountdownLatchExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/DeadLockDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/DeadLockDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/DeadLockDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/DeadLockDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/DeadLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/DeadLockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/DoSomeThing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/DoSomeThing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/SynchronizedTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/SynchronizedTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/TestThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/TestThread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/ThreadDemo2$ThreadOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/ThreadDemo2$ThreadOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/ThreadDemo2$ThreadTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/ThreadDemo2$ThreadTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/ThreadDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/BasicThreadTest/www/ThreadDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/DisjointSetUnion/www/MinNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/DisjointSetUnion/www/MinNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/ListNodeTest/www/ReverseKthNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/ListNodeTest/www/ReverseKthNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/ListNodeTest/www/ReverseNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/ListNodeTest/www/ReverseNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/abytedance/www/CharPermutate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/abytedance/www/CharPermutate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/AddTwoNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/AddTwoNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/AppearOnceNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/AppearOnceNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/ArraySplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/ArraySplit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/CycleLastNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/CycleLastNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/Gcd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/Gcd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/Hanoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/Hanoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/LegalBrackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/algorithm/www/LegalBrackets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/basic/www/BasicJavaScriptEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/basic/www/BasicJavaScriptEngine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/basicJava8/www/JavaStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/basicJava8/www/JavaStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/datastructure/www/HashMap6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/datastructure/www/HashMap6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/SingleObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/SingleObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton5$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton5$SingletonHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/designpattern/www/iterator/singleinstance/Singleton5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/basicJava8/www/TransmitParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/basicJava8/www/TransmitParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/datastructure/www/ArraysTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/datastructure/www/ArraysTest3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/CombineListNode3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/CombineListNode3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/CommonNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/CommonNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/FirstCommonNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/FirstCommonNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/ReverseFromToNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/ReverseFromToNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/ReverseKthNode4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/ReverseKthNode4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/ReverseListNode6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/ReverseListNode6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/ReverseListNode9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/linkedlist/www/ReverseListNode9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/AppearTwoNumber2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/AppearTwoNumber2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/BigNumberAfter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/BigNumberAfter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/KthNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/KthNumber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/KthNumber2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/KthNumber2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/MaxGift2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/MaxGift2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/MinKthNumber3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/MinKthNumber3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/MinKthNumber4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/MinKthNumber4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/RobMoney.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/RobMoney.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/StockPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/StockPrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/SumOfThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/SumOfThree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/XiaoMiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/XiaoMiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/sort/www/QuickSort3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/sort/www/QuickSort3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/CommonLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/CommonLength.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/CommonString2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/CommonString2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/IpTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/IpTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/LongestPalindrome5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/LongestPalindrome5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/LongestString2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/LongestString2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/LongestSubSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/LongestSubSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/PalindromeString3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/PalindromeString3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/StringLangTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/StringLangTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/TopKthString2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/TopKthString2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/AncestorTreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/AncestorTreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/BalanceBinTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/BalanceBinTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/PreOrderTree4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/PreOrderTree4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/TreeToList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/TreeToList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/KthNumber3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/KthNumber3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/MaxGift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/MaxGift.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/MaxMatrixOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/MaxMatrixOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/RotateMinNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/RotateMinNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/StackOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/StackOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/StockPrice3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/shuzu/www/StockPrice3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/StringAdd2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/string/www/StringAdd2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/LevelTree2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/LevelTree2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/RightViewTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/RightViewTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/SymmetricTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/SymmetricTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyWorkSpace2/com/tree/www/TreeNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/AAAA/www/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/AAAA/www/A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/AAAA/www/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/AAAA/www/B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/AAAA/www/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/AAAA/www/C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/AAAA/www/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/AAAA/www/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ListNodeTest/www/HasCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ListNodeTest/www/HasCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ListNodeTest/www/ReverseNodeFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ListNodeTest/www/ReverseNodeFrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/www/AddNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/www/AddNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/www/JieMultiplyZeroNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/www/JieMultiplyZeroNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/www/NumberMultiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/www/NumberMultiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BasicThreadTest/www/CountdownLatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/CountdownLatchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BasicThreadTest/www/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/DeadLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BasicThreadTest/www/DoSomeThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/DoSomeThing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BasicThreadTest/www/SynchronizedTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/SynchronizedTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BasicThreadTest/www/TestThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/TestThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BasicThreadTest/www/ThreadDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BasicThreadTest/www/ThreadDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DisjointSetUnion/www/MinNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DisjointSetUnion/www/MinNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ListNodeTest/www/ReverseKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ListNodeTest/www/ReverseKthNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ListNodeTest/www/ReverseNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ListNodeTest/www/ReverseNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abytedance/www/CharPermutate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abytedance/www/CharPermutate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/www/AddTwoNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/www/AddTwoNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/www/AppearOnceNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/www/AppearOnceNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/www/ArraySplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/www/ArraySplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/www/CycleLastNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/www/CycleLastNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/www/Gcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/www/Gcd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/www/Hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/www/Hanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/www/LegalBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/www/LegalBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/basic/www/BasicJavaScriptEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/basic/www/BasicJavaScriptEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/basicJava8/www/JavaStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/basicJava8/www/JavaStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/datastructure/www/HashMap6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/datastructure/www/HashMap6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpattern/www/iterator/proxypattern/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpattern/www/iterator/proxypattern/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/SingleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/SingleObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/Singleton2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/Singleton3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/Singleton3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/Singleton4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/Singleton4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/Singleton5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/designpattern/www/iterator/singleinstance/Singleton5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/basicJava8/www/TransmitParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/basicJava8/www/TransmitParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/datastructure/www/ArraysTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/datastructure/www/ArraysTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/www/AddNumbers4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/www/AddNumbers4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/www/CombineListNode3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/www/CombineListNode3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/www/CommonNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/www/CommonNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/www/DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/www/DeleteNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/www/FirstCommonNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/www/FirstCommonNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/www/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/www/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/www/ReverseFromToNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/www/ReverseFromToNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/www/ReverseKthNode4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/www/ReverseKthNode4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/www/ReverseListNode6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/www/ReverseListNode6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linkedlist/www/ReverseListNode9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linkedlist/www/ReverseListNode9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/myutil/www/ArraysToString2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myutil/www/ArraysToString2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/AppearTwoNumber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/AppearTwoNumber2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/BigNumberAfter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/BigNumberAfter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/KthNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/KthNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/KthNumber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/KthNumber2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/MaxGift2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/MaxGift2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/MinKthNumber3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/MinKthNumber3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/MinKthNumber4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/MinKthNumber4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/RobMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/RobMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/StockPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/StockPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/SumOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/SumOfThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/XiaoMiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/XiaoMiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sort/www/QuickSort3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sort/www/QuickSort3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/string/www/CommonLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/CommonLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/string/www/CommonString2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/CommonString2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/string/www/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/EditDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/string/www/IpTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/IpTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/string/www/LongestPalindrome5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/LongestPalindrome5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/string/www/LongestString2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/LongestString2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/string/www/LongestSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/LongestSubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/string/www/PalindromeString3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/PalindromeString3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/string/www/StringLangTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/StringLangTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/string/www/TopKthString2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/TopKthString2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tree/www/AncestorTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/www/AncestorTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tree/www/BalanceBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/www/BalanceBinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tree/www/PreOrderTree4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/www/PreOrderTree4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tree/www/TreeToList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/www/TreeToList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/KthNumber3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/KthNumber3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/MaxGift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/MaxGift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/MaxMatrixOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/MaxMatrixOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/RotateMinNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/RotateMinNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/StackOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/StackOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/StockPrice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/StockPrice3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shuzu/www/SumOfThree2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shuzu/www/SumOfThree2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/string/www/StringAdd2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/string/www/StringAdd2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/www/LevelTree2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/www/LevelTree2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/www/RightViewTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/www/RightViewTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/www/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/www/SymmetricTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tree/www/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tree/www/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +198,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/tree/www" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
@@ -176,13 +211,13 @@
       <recent name="E:\JavaWorkSpace2\MyWorkSpace2\src\com\sort\www" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RotateNums">
-    <configuration name="ExchangeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ListNodeTest.www.ExchangeNode" />
+  <component name="RunManager" selected="Application.Demo3">
+    <configuration name="AppearTwoNumber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shuzu.www.AppearTwoNumber2" />
       <module name="MyWorkSpace2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ListNodeTest.www.*" />
+          <option name="PATTERN" value="com.shuzu.www.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ListNodeTest.www.MiddleListNode" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basicinnerclass.www.Demo" />
       <module name="MyWorkSpace2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ListNodeTest.www.*" />
+          <option name="PATTERN" value="com.basicinnerclass.www.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlantFlower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.www.PlantFlower" />
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basicinnerclass.www.Demo1" />
       <module name="MyWorkSpace2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.www.*" />
+          <option name="PATTERN" value="com.basicinnerclass.www.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +251,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateKthNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ListNodeTest.www.RotateKthNode" />
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.basicinnerclass.www.Demo3" />
       <module name="MyWorkSpace2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ListNodeTest.www.*" />
+          <option name="PATTERN" value="com.basicinnerclass.www.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.www.RotateNums" />
+    <configuration name="ReverseListNode6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedlist.www.ReverseListNode6" />
       <module name="MyWorkSpace2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.www.*" />
+          <option name="PATTERN" value="com.linkedlist.www.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RotateNums" />
-        <item itemvalue="Application.MiddleListNode" />
-        <item itemvalue="Application.ExchangeNode" />
-        <item itemvalue="Application.RotateKthNode" />
-        <item itemvalue="Application.PlantFlower" />
+        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.ReverseListNode6" />
+        <item itemvalue="Application.AppearTwoNumber2" />
       </list>
     </recent_temporary>
   </component>
@@ -326,6 +361,37 @@
       <workItem from="1617324597653" duration="2524000" />
       <workItem from="1617345328015" duration="8994000" />
       <workItem from="1617411419464" duration="3345000" />
+      <workItem from="1617415434319" duration="3532000" />
+      <workItem from="1617420250141" duration="97000" />
+      <workItem from="1617425481786" duration="11350000" />
+      <workItem from="1617498176290" duration="9139000" />
+      <workItem from="1617587685500" duration="2797000" />
+      <workItem from="1617627139057" duration="4909000" />
+      <workItem from="1617670653255" duration="5411000" />
+      <workItem from="1617704658692" duration="2241000" />
+      <workItem from="1617792426204" duration="6055000" />
+      <workItem from="1617848166809" duration="3167000" />
+      <workItem from="1617861917599" duration="6908000" />
+      <workItem from="1617970717250" duration="5096000" />
+      <workItem from="1618016382574" duration="1121000" />
+      <workItem from="1618053441658" duration="1677000" />
+      <workItem from="1618060626022" duration="3678000" />
+      <workItem from="1618140525852" duration="9471000" />
+      <workItem from="1619244896741" duration="10576000" />
+      <workItem from="1619311311437" duration="14553000" />
+      <workItem from="1619398721383" duration="4958000" />
+      <workItem from="1619416016892" duration="12922000" />
+      <workItem from="1619486694193" duration="2269000" />
+      <workItem from="1619611990959" duration="2220000" />
+      <workItem from="1619659587428" duration="3939000" />
+      <workItem from="1619694800573" duration="3257000" />
+      <workItem from="1619745991930" duration="4409000" />
+      <workItem from="1620211481922" duration="2947000" />
+      <workItem from="1620309418928" duration="1582000" />
+      <workItem from="1620372459837" duration="5814000" />
+      <workItem from="1620387153306" duration="3505000" />
+      <workItem from="1620434294208" duration="3391000" />
+      <workItem from="1620451750469" duration="4010000" />
     </task>
     <servers />
   </component>
@@ -343,71 +409,80 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="404" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1616398124732">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1617864950291">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1617864950291" />
+    <state x="591" y="320" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619405941324">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="739" y="404" width="441" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616398124732" />
-    <state width="1493" height="140" key="GridCell.Tab.0.bottom" timestamp="1617414813486">
+    <state x="591" y="320" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1619405941324" />
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1620481304600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="154" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616641580186" />
-    <state width="1493" height="140" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617414813486" />
-    <state width="1493" height="140" key="GridCell.Tab.0.center" timestamp="1617414813486">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620481304600" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1620481304600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="154" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616641580186" />
-    <state width="1493" height="140" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617414813486" />
-    <state width="1493" height="140" key="GridCell.Tab.0.left" timestamp="1617414813486">
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620481304600" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1620481304600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="154" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616641580186" />
-    <state width="1493" height="140" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617414813486" />
-    <state width="1493" height="140" key="GridCell.Tab.0.right" timestamp="1617414813486">
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620481304600" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1620481304600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="154" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616641580186" />
-    <state width="1493" height="140" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617414813486" />
-    <state width="1493" height="293" key="GridCell.Tab.1.bottom" timestamp="1617092913854">
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620481304600" />
+    <state width="1493" height="293" key="GridCell.Tab.1.bottom" timestamp="1620464781313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616403871757" />
-    <state width="1493" height="293" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617092913854" />
-    <state width="1493" height="293" key="GridCell.Tab.1.center" timestamp="1617092913854">
+    <state width="1493" height="293" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620464781313" />
+    <state width="1493" height="293" key="GridCell.Tab.1.center" timestamp="1620464781313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616403871757" />
-    <state width="1493" height="293" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1617092913854" />
-    <state width="1493" height="293" key="GridCell.Tab.1.left" timestamp="1617092913854">
+    <state width="1493" height="293" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620464781313" />
+    <state width="1493" height="293" key="GridCell.Tab.1.left" timestamp="1620464781313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616403871757" />
-    <state width="1493" height="293" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1617092913854" />
-    <state width="1493" height="293" key="GridCell.Tab.1.right" timestamp="1617092913854">
+    <state width="1493" height="293" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620464781313" />
+    <state width="1493" height="293" key="GridCell.Tab.1.right" timestamp="1620464781313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616403871757" />
-    <state width="1493" height="293" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1617092913854" />
+    <state width="1493" height="293" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620464781313" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1614265358603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614265358603" />
-    <state x="278" y="23" width="798" height="569" key="com.intellij.ide.util.TipDialog" timestamp="1617411437112">
+    <state x="614" y="328" key="VCS.ChangelistChooser" timestamp="1617431253052">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="614" y="328" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1617431253052" />
+    <state x="278" y="23" width="798" height="569" key="com.intellij.ide.util.TipDialog" timestamp="1620451772224">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="354" y="185" width="798" height="569" key="com.intellij.ide.util.TipDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616634514420" />
-    <state x="278" y="23" width="712" height="674" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1617411437112" />
-    <state x="499" y="177" key="extract.method.dialog" timestamp="1617239335511">
+    <state x="278" y="23" width="712" height="674" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1620451772224" />
+    <state x="499" y="177" key="extract.method.dialog" timestamp="1617676131302">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="177" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1617239335511" />
+    <state x="499" y="177" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1617676131302" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1617068768712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1617068768712" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1617345383123">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1620397524154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616634866341" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617345383123" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1620397524154" />
   </component>
 </project>

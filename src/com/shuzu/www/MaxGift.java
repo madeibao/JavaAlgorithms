@@ -10,6 +10,7 @@ package com.shuzu.www;
  * 礼物的最大值。
  * 从左上角到右下角的位置上的
  * 获得的礼物的最大值。
+ * 最大礼物问题
  **/
 public class MaxGift {
 

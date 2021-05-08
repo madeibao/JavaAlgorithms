@@ -63,7 +63,6 @@ public class FirstCommonNode {
         n2.next = n3;
         n3.next = h3;
 
-
         ListNode temp = getIntersectionNode(h1, n1);
         System.out.println(temp);
     }

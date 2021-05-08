@@ -22,7 +22,6 @@ public class ThreadDemo2 {
         new Thread(demo.new ThreadTwo(), "线程2").start();
         Thread.sleep(200);
         System.out.println("结束");
-
     }
 
     class ThreadOne implements Runnable {

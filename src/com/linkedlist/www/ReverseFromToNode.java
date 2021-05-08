@@ -18,6 +18,7 @@ public class ReverseFromToNode {
         dummy.next = head;
 
         ListNode p = dummy;
+        // q指向的节点更快。
         ListNode q = dummy.next;
 
         for(int i=0;i<left-1;i++) {

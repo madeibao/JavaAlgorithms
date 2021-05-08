@@ -11,6 +11,7 @@ import java.util.Stack;
  * <p>
  * Java的栈的序列
  **/
+
 public class StackOrder {
 
     public static boolean validateStackSequences(int[] pushed, int[] popped) {

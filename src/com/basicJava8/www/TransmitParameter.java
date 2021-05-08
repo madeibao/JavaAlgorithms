@@ -38,7 +38,6 @@ class User2 {
     }
 }
 
-
 public class TransmitParameter {
     public static void main(String[] args) {
         String a = "hello";

@@ -35,7 +35,6 @@ public class LevelTree2 {
                 if (temp2.right != null) {
                     queue.add(temp2.right);
                 }
-
             }
             res.addFirst(temp);
         }

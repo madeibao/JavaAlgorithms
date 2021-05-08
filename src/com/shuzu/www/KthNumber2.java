@@ -9,8 +9,9 @@ package com.shuzu.www;
  *
  * 第k大的数字
  * 递归的写法来实现。
- *
+ * https://blog.csdn.net/orangefly0214/article/details/86527462?utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control
  **/
+
 public class KthNumber2 {
 
     public int findKthLargest(int[] nums, int k) {
@@ -24,13 +25,15 @@ public class KthNumber2 {
             while (low<high&&nums[high]<=temp) {
                 high--;
             }
+            // 在高出遇到比temp小的数字，将其放到低处的位置上。
             nums[low] = nums[high];
             while (low<high&&nums[low]>=temp) {
                 low++;
             }
+
+            // 在低处遇到比temp大的数字，将其放到高位置上
             nums[high] = nums[low];
         }
-
 
         // 把分割数组的轴选出
         nums[high] = temp;

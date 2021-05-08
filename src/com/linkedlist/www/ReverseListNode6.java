@@ -23,10 +23,21 @@ public class ReverseListNode6 {
         return tail;
     }
 
-    
+    private static ListNode reverse2(ListNode head) {
+        if(head==null|| head.next==null) {
+            return head;
+        }
+
+        ListNode res = reverse2(head.next);
+        head.next.next = head;
+        head.next= null;
+        return res;
+    }
+
+
     public static void main(String[] args) {
         ListNode head = new ListNode(new int[]{1, 2, 3, 4, 5, 6});
-        ListNode res = reverse(head);
+        ListNode res = reverse2(head);
         while (res != null) {
             System.out.print(res.val + "->");
             res = res.next;

@@ -33,6 +33,5 @@ public class AppearTwoNumber2 {
         for (int j : temp) {
             System.out.print(j + " ");
         }
-
     }
 }

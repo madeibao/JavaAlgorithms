@@ -9,6 +9,8 @@ import java.util.Stack;
  * @create: 2020-02-08 15:08
  * @version: 1.0
  **/
+
+
 public class LegalBrackets {
 
     private static boolean isSym(char c1, char c2) {

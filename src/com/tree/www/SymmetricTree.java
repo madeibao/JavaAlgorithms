@@ -16,6 +16,8 @@ public class SymmetricTree {
     }
 
     public static boolean isMirror(TreeNode t1, TreeNode t2) {
+
+        /// 首先是与，判断两个内容是否都为空的结果值。
         if (t1 == null && t2 == null) {
             return true;
         }

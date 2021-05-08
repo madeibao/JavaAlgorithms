@@ -7,6 +7,8 @@ package com.BasicThreadTest.www;
  * @Description TODO
  * @Version 1.0
  **/
+
+
 public class DoSomeThing implements Runnable {
     private String name;
 

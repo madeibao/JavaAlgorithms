@@ -9,7 +9,6 @@ package com.AAAA.www;
  *
  **/
 
-public class B {
-
+public class  B {
 
 }
