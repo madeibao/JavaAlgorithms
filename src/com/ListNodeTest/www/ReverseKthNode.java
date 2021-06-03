@@ -44,7 +44,6 @@ public class ReverseKthNode {
         return pre;
     }
 
-
     public static void main(String[] args) {
 
         ListNode node = new ListNode(new int[]{1,2,3,4,5,6,7,8,9});
