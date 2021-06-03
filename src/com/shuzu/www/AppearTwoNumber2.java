@@ -21,11 +21,32 @@ public class AppearTwoNumber2 {
             if ((diff & num) != 0) {
                 x ^= num;
             }
-//                x ^= num;
         }
         return new int[]{x, xor ^ x};
     }
 
+    static int[] helper(int[] nums) {
+
+        int sum = 0;
+        int n = nums.length;
+        int i;
+        for (i = 0; i < n; ++i) {
+            sum ^= nums[i];
+        }
+        sum = sum & -sum;
+        int n1 = 0;
+        int n2 = 0;
+        for (i = 0; i < n; ++i) {
+            if((nums[i] & sum)!=0) {
+                n1 ^= nums[i];
+            }
+            else {
+                n2 ^= nums[i];
+            }
+        }
+
+        return new int[]{n1, n2};
+    }
     public static void main(String[] args) {
         int[] nums = {12, 3, 3, 4, 4, 5, 5, 7, 7, 6, 6, 9};
         int[] temp = singleNumbers(nums);

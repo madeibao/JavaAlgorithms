@@ -16,6 +16,8 @@ public class DeleteNode3 {
         if (head == null || head.val == val) {
             return head.next;
         }
+
+        // 当前的指针节点。
         ListNode cur = head;
         while (cur.next != null && cur.next.val != val) {
             cur = cur.next;

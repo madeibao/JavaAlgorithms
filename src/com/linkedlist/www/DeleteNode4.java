@@ -13,8 +13,7 @@ package com.linkedlist.www;
 public class DeleteNode4 {
 
     /**
-     * 通过递归的方式来实现链表的删除。
-     *
+     * 通过递归的方式来实现链表的删除
      * @param head
      * @return
      */
