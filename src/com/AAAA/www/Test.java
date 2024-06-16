@@ -1,6 +1,5 @@
 package com.AAAA.www;
 
-
 /**
  * @program: Pro1->Test
  * @description: 基本测试文件
@@ -10,7 +9,7 @@ package com.AAAA.www;
  **/
 
 public class Test {
+    public static void main(String[] args) {
 
-
-
+    }
 }

@@ -16,15 +16,12 @@ import java.util.PriorityQueue;
  **/
 public class TopWords {
     public static int[] topKFrequent(int[] nums, int k) {
-
-
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         for(int i:nums) {
             map.put(i,map.getOrDefault(i,0)+1);
         }
 
         PriorityQueue<int[]> queue = new PriorityQueue<int[]>(new Comparator<int[]>() {
-
             @Override
             public int compare(int[] a, int[] b) {
                 return b[1]-a[1];
@@ -48,7 +45,6 @@ public class TopWords {
         int[] nums = {1,1,1,2,2,3};
         int k = 2;
         int[] res = topKFrequent(nums,k);
-
         for(int i:res) {
             System.out.print(i+" ");
         }
