@@ -25,15 +25,16 @@ public class TryTest {
 
     /**
      * 情况3：try和finally中均有return
+     *
      * @return
      */
     private static String handleException4() {
-        try{
+        try {
             System.out.println("");
             return "try块的返回值";
-        }catch (Exception e){
+        } catch (Exception e) {
             System.out.println("捕获到了异常");
-        }finally {
+        } finally {
             System.out.println("finally块执行完毕了");
             return "finally的返回值";
         }
