@@ -10,5 +10,4 @@ package com.AAAA.www;
 
 public class C {
 
-
 }

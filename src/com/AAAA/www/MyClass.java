@@ -8,6 +8,5 @@ package com.AAAA.www;
  * @Version 1.0
  **/
 public class MyClass {
-    
 
 }

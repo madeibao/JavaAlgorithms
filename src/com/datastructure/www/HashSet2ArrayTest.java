@@ -23,7 +23,7 @@ public class HashSet2ArrayTest {
         set2.add(8);
 
         int[] nums;
-        nums = set2.stream().mapToInt(Integer::intValue).toArray();
+        nums = set2.stream().mapToInt(Integer::intValue).sorted().toArray();
 
         for (int j : nums) {
             System.out.print(j + " ");
