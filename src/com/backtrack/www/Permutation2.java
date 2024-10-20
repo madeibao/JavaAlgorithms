@@ -13,11 +13,11 @@ import java.util.List;
  **/
 public class Permutation2 {
     public List<List<Integer>> permute(int[] nums) {
-        if(nums==null) {
+        if (nums == null) {
             return new ArrayList<List<Integer>>();
         }
         List<List<Integer>> res = new LinkedList<List<Integer>>();
-        dfs(res,nums,0);
+        dfs(res, nums, 0);
         return res;
     }
 
