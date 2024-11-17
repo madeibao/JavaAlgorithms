@@ -9,7 +9,7 @@ package com.alang.www;
  * <p>
  * 实现了这个接口之后来进行的修
  **/
-public class Person implements Comparable {
+public class Person implements Comparable<Person> {
 
     private int age;
     private String name;
@@ -25,10 +25,9 @@ public class Person implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
-
+    public int compareTo(Person o) {
         // 这里是一个强制的类型的转换。
         Person p = (Person) o;
-        return this.age - p.age;
+        return  p.age - o.age;
     }
 }

@@ -22,6 +22,5 @@ public class CompareToTest {
         for (Object ob : objArray) {
             System.out.println(ob);
         }
-
     }
 }
