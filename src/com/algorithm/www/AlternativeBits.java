@@ -15,26 +15,22 @@ public class AlternativeBits {
     public static String reverseOnlyLetters(String s) {
 
         Stack<Character> stack = new Stack<Character>();
-        for(int i=0;i<s.length();i++) {
-            if(Character.isLetter(s.charAt(i))) {
+        for (int i = 0; i < s.length(); i++) {
+            if (Character.isLetter(s.charAt(i))) {
                 stack.push(s.charAt(i));
             }
         }
 
         StringBuilder sb = new StringBuilder();
-        for(int i=0;i<s.length();i++) {
-            if(Character.isLetter(s.charAt(i))) {
+        for (int i = 0; i < s.length(); i++) {
+            if (Character.isLetter(s.charAt(i))) {
                 sb.append(stack.pop());
-            }
-            else {
+            } else {
                 sb.append(s.charAt(i));
             }
         }
-
         return sb.toString();
     }
-
-
 
     public static void main(String[] args) {
         String s = "ab-cd";
