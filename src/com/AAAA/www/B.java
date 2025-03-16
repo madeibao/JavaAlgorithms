@@ -7,7 +7,6 @@ package com.AAAA.www;
  * @Description TODO
  * @Version 1.0
  **/
-
 public class B {
 
 }

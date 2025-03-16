@@ -2,6 +2,7 @@ package com.Stream.www;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -52,5 +53,13 @@ public class CollectorsTestDemo {
                 .get();
         // output: alpha
         System.out.println(minStr+" "+ minStrSe);
+
+
+        List<Integer> integersFourth = Arrays.asList(1,2,3,4,5,6,6);
+        IntSummaryStatistics stats = integers
+                .stream()
+                .collect(Collectors.summarizingInt(x -> x ));
+
+        System.out.println(stats);
     }
 }

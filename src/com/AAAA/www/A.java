@@ -7,8 +7,6 @@ package com.AAAA.www;
  * @create: 2019-12-21 20:06
  * @version: 1.0
  **/
-
 public class A {
-
 
 }

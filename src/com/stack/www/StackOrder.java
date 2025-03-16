@@ -1,5 +1,6 @@
 package com.stack.www;
 
+import java.util.ArrayDeque;
 import java.util.Stack;
 
 /**
@@ -14,16 +15,29 @@ public class StackOrder {
         int j = 0;
         int i = 0;
         Stack<Integer> stack = new Stack<>();
-        while (i<pushed.length&&j<popped.length) {
+        while (i < pushed.length && j < popped.length) {
             stack.push(pushed[i]);
-            while ( !stack.empty()&& stack.peek()==popped[j]) {
+            while (!stack.empty() && stack.peek() == popped[j]) {
                 stack.pop();
                 j++;
             }
-            i+=1;
+            i += 1;
         }
 
         return stack.isEmpty();
+    }
+
+    public static boolean validateStackSequences2(int[] pushed, int[] popped) {
+
+        ArrayDeque<Integer> arrayDeque = new ArrayDeque<>();
+        for (int i = 0, j = 0; i < pushed.length; i++) {
+            arrayDeque.push(pushed[i]);
+            while (!arrayDeque.isEmpty() && arrayDeque.peek() == popped[j]) {
+                arrayDeque.pop();
+                j++;
+            }
+        }
+        return arrayDeque.isEmpty();
     }
 
     public static void main(String[] args) {
