@@ -8,8 +8,5 @@ package com.AAAA.www;
  * @version: 1.0
  **/
 public class C {
-    public static void main(String[] args) {
 
-
-    }
 }

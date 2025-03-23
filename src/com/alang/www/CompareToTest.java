@@ -13,6 +13,11 @@ import java.util.Arrays;
  **/
 public class CompareToTest {
 
+    /**
+     * 主方法，用于对Person对象数组进行排序并打印。
+     *
+     * @param args 命令行参数，本方法不使用。
+     */
     public static void main(String[] args) {
         Object[] objArray = {new Person(20, "jack"),
                              new Person(17, "tom"),

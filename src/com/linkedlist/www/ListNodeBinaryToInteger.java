@@ -12,7 +12,6 @@ package com.linkedlist.www;
  * 解释：二进制数 (101) 转化为十进制数 (5)
  **/
 public class ListNodeBinaryToInteger {
-
     public static int getDecimalValue(ListNode head) {
         ListNode p = head;
         int result = 0;
