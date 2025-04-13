@@ -24,5 +24,9 @@ public class StringCompareTo {
         String str3 = "ljj";
         String str4 = "ljjLovexql";
         System.out.println(str3.compareTo(str4));
+
+        String str5 = "02:00";
+        String str6 = "02:01";
+        System.out.println(str5.compareTo(str6));
     }
 }
