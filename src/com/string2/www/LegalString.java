@@ -1,7 +1,7 @@
 package com.string2.www;
 
+import java.util.ArrayDeque;
 import java.util.HashMap;
-import java.util.Stack;
 
 /**
  * @ClassName LegalString
@@ -12,38 +12,33 @@ import java.util.Stack;
  *
  * 合法的括号序列。
  * 合理合法的字符串序列。
- *
+ * 用ArrayDeque 来代替Stack栈
  **/
 public class LegalString {
 
     static boolean legalString(String str) {
+        HashMap<Character, Character> map2 = new HashMap<>();
+        map2.put(')', '(');
+        map2.put(']', '[');
+        map2.put('}', '{');
+        ArrayDeque<Character> stack = new ArrayDeque<>();
 
-        HashMap<Character, Character> map2 =new HashMap<>();
-        map2.put(')','(');
-        map2.put(']','[');
-        map2.put('}','{');
-
-        Stack<Character> stack = new Stack<>();
         char[] ch = str.toCharArray();
-        for(int i =0;i<ch.length;i++) {
-            char c = ch[i];
-
+        for (char c : ch) {
             // 如果栈是空的栈。
-            if(stack.isEmpty()) {
+            if (stack.isEmpty()) {
                 stack.push(c);
-            }
-            else if(stack.peek() == map2.get(c)) {
+            } else if (stack.peek() == map2.get(c)) {
                 stack.pop();
-            }
-            else {
+            } else {
                 stack.push(c);
             }
         }
-        return stack.empty();
+        return stack.isEmpty();
     }
-    public static void main(String[] args) {
-        String str ="()[]";
-        System.out.println(legalString(str));
 
+    public static void main(String[] args) {
+        String str = "()[]";
+        System.out.println(legalString(str));
     }
 }
