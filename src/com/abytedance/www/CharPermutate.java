@@ -13,18 +13,18 @@ import java.util.Arrays;
  *
  **/
 public class CharPermutate {
-    static void permutate(char[]ch, int left, int right) {
-        if(right<=1) {
+    static void permutate(char[] ch, int left, int right) {
+        if (right <= 1) {
             return;
         }
-        if(left==right) {
+        if (left == right) {
             System.out.println(Arrays.toString(ch));
         }
 
-        for(int i=left;i<=right;i++) {
-            swap(ch,i,left);
-            permutate(ch,left+1, right);
-            swap(ch,i,left);
+        for (int i = left; i <= right; i++) {
+            swap(ch, i, left);
+            permutate(ch, left + 1, right);
+            swap(ch, i, left);
         }
     }
 
@@ -35,7 +35,7 @@ public class CharPermutate {
     }
 
     public static void main(String[] args) {
-        char[] ch ={'a','b','c'};
+        char[] ch = {'a', 'b', 'c'};
         permutate(ch, 0, 2);
     }
 }

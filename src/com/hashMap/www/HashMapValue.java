@@ -26,7 +26,7 @@ public class HashMapValue {
         Collections.sort(list, new Comparator<Map.Entry<String, Long>>() {
             @Override
             public int compare(Map.Entry<String, Long> o1, Map.Entry<String, Long> o2) {
-                return (int) (o2.getValue()-o1.getValue() );
+                return (int) (o2.getValue() - o1.getValue());
             }
         });
 
