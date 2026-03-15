@@ -10,9 +10,10 @@ package com.string2.www;
  * 字符串的乘法运算。
  **/
 public class StringMultiply {
-
     public static String solve(String s, String t) {
-
+        if (s.equals("0") || t.equals("0")) {
+            return "0";
+        }
         int lens = s.length();
         int lent = t.length();
 
