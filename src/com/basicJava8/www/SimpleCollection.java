@@ -22,7 +22,6 @@ public class SimpleCollection {
             c.add(i);
         }
 
-
         for (Integer i : c) {
             System.out.print(i + ", ");
         }
