@@ -42,7 +42,6 @@ public class BalanceTree {
         TreeNode root = new TreeNode(1);
         TreeNode r2 = new TreeNode(2);
         TreeNode r3 = new TreeNode(3);
-
         root.left= r2;
         root.right= r3;
 
