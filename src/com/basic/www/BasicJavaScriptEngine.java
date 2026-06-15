@@ -13,8 +13,6 @@ import javax.script.ScriptException;
  * <p>
  * 基本的javascript执行引擎
  **/
-
-
 public class BasicJavaScriptEngine {
     public static void main(String[] args) {
         ScriptEngineManager scriptEngineManager = new ScriptEngineManager();
@@ -24,8 +22,7 @@ public class BasicJavaScriptEngine {
         try {
             nashorn.eval("print('" + name + "')");
             result = (Integer) nashorn.eval("10 + 2");
-        } catch (
-                ScriptException e) {
+        } catch (ScriptException e) {
             System.out.println("执行脚本错误  " + e.getMessage());
         }
         System.out.println(result.toString());
