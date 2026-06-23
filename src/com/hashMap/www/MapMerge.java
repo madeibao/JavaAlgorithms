@@ -24,6 +24,12 @@ public class MapMerge {
             }
         }
 
+        HashMap<String, Integer> wordCount2 = new HashMap<>();
+        for(var j: words) {
+            wordCount2.put(j, wordCount2.getOrDefault(j, 0) + 1);
+        }
+        System.out.println(wordCount2);
+
         // 使用merge()简化
         wordCount.clear();
         for (String word : words) {
