@@ -28,7 +28,9 @@ public class MapMerge {
         for(var j: words) {
             wordCount2.put(j, wordCount2.getOrDefault(j, 0) + 1);
         }
-        System.out.println(wordCount2);
+
+        // lambda 表达式方式遍历
+        wordCount2.forEach((k, v) -> System.out.println(k + " " + v));
 
         // 使用merge()简化
         wordCount.clear();
