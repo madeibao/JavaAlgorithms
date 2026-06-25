@@ -13,15 +13,25 @@ import java.util.Collections;
  * 利用Java的内置的集合对象。
  **/
 public class ArraysSortTest {
-
     public static void main(String[] args) {
-
         // 注意的是一定为包装的类型才能够进行排序。
         Integer[] nums = {1, 4, 2, 2, 3, 4, 8, 9, 2, 9, 20};
         Arrays.sort(nums, Collections.reverseOrder());
 
         for (Integer i : nums) {
             System.out.print(i + " ");
+        }
+
+        System.out.println("\n---------------------");
+        // 逆序排序，对应的基本类型
+        int[] arrays = {1, 2, 3, 4, 5, 6, 7};
+        int[] res = Arrays.stream(arrays)
+                .boxed()
+                .sorted(Collections.reverseOrder())
+                .mapToInt(Integer::valueOf)
+                .toArray();
+        for(int j: res) {
+            System.out.print(j+" ");
         }
     }
 }
