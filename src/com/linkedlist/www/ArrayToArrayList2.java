@@ -2,6 +2,7 @@ package com.linkedlist.www;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @ClassName ArrayToArrayList2
@@ -18,14 +19,22 @@ public class ArrayToArrayList2 {
         ArrayList<Integer> res = new ArrayList<Integer>(Arrays.asList(nums));
         res.forEach(System.out::println);
 
-        System.out.println();
+        System.out.println("-----------------");
+
         int[] num2 = {1, 2, 3, 4, 5};
         ArrayList<Integer> res2 = new ArrayList<>();
-        for (int i = 0; i < num2.length; i++) {
-            res2.add(num2[i]);
+        for (int k : num2) {
+            res2.add(k);
         }
 
         res2.forEach(System.out::println);
+
+        int[] num3 = new int[]{1, 2, 3, 3};
+        List<Integer> list = Arrays.stream(num3).boxed().toList();
+        System.out.println("---------------------");
+        for (int j : list) {
+            System.out.print(j + " ");
+        }
     }
 }
 
