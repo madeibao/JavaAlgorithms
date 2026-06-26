@@ -7,9 +7,11 @@ public class NumCanPartition2 {
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
         }
+        // 如果是奇数，则无法平分
         if ((sum & 1) == 1) {
             return false;
         }
+        // 目标和， 采用移位运算， 避免使用除法
         int target = sum >> 1;
         boolean[] dp = new boolean[target + 1];
         dp[0] = true;
@@ -24,7 +26,5 @@ public class NumCanPartition2 {
     public static void main(String[] args) { 
         int[] nums = {1,5,11,5};
         System.out.println(new NumCanPartition2().canPartition(nums));
-
     }
-
 }
