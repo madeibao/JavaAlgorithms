@@ -41,7 +41,7 @@ public class isVowel {
         return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'U' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
     }
 
-    public static boolean isVowel(char c) {
+    public static boolean isVowelTest(char c) {
         return "aeiouAEIOU".contains(String.valueOf(c));
     }
 
