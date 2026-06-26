@@ -18,6 +18,32 @@ public class isVowel {
         return false;
     }
 
+    public static boolean isVowel2(char c) {
+        char[] ch = new char[]{'a', 'e', 'i', 'o', 'U', 'A', 'E', 'I', 'O', 'U'};
+        for (char c1 : ch) {
+            if (c == c1) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static boolean isVowel3(char c) {
+        return "aeiouAEIOU".indexOf(c) != -1;
+    }
+
+    static boolean isVowel4(char c) {
+        String str = "aeiouAEIOU";
+        return str.indexOf(c) != -1;
+    }
+
+    static boolean isVowel5(char c) {
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'U' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
+    }
+
+    public static boolean isVowel(char c) {
+        return "aeiouAEIOU".contains(String.valueOf(c));
+    }
 
     public static void main(String[] args) {
         System.out.println(isVowel('c'));
