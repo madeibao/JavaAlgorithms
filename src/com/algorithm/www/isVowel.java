@@ -11,15 +11,15 @@ package com.algorithm.www;
  **/
 public class isVowel {
 
-    private static boolean isVowel(char c) {
-        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'U' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
+    private static boolean isVowelChar(char c) {
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
             return true;
         }
         return false;
     }
 
     public static boolean isVowel2(char c) {
-        char[] ch = new char[]{'a', 'e', 'i', 'o', 'U', 'A', 'E', 'I', 'O', 'U'};
+        char[] ch = new char[]{'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
         for (char c1 : ch) {
             if (c == c1) {
                 return true;
@@ -38,7 +38,7 @@ public class isVowel {
     }
 
     static boolean isVowel5(char c) {
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'U' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
     }
 
     public static boolean isVowelTest(char c) {
@@ -46,6 +46,7 @@ public class isVowel {
     }
 
     public static void main(String[] args) {
-        System.out.println(isVowel('c'));
+        System.out.println(isVowelTest('c'));
+        System.out.println(isVowel3('a'));
     }
 }
