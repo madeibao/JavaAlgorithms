@@ -1,4 +1,4 @@
-package com.linkedlist.www;
+package com.basicJava8;
 
 import java.util.ArrayList;
 import java.util.Arrays;

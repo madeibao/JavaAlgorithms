@@ -1,4 +1,4 @@
-package com.linkedlist.www;
+package com.basicJava8;
 
 import java.util.ArrayList;
 
@@ -25,6 +25,13 @@ public class ArrayListToArray {
         // Java8 中的数据流的方法来实现。
         // ArrayList变成数组的形式来进行存储。
         int[] array = res.stream().mapToInt(i -> i).toArray();
+
+        int[] array2 = res.stream().mapToInt(Integer::valueOf).toArray();
+
+        int[] array3 = res.stream().mapToInt(Integer::intValue).toArray();
+
+        // 适用数据量大的情况
+        int[] array5 = 	res.parallelStream().mapToInt(i -> i).toArray();
 
         for (int i : array) {
             System.out.println(i + " ");
