@@ -15,26 +15,26 @@ import java.util.PriorityQueue;
  **/
 public class MinKthNumber {
     public static int[] smallestK(int[] arr, int k) {
-
-        PriorityQueue<Integer> queue = new PriorityQueue<>(k+1);
-        for(int i=0;i<arr.length;i++) {
-            queue.offer(arr[i]);
+        PriorityQueue<Integer> queue = new PriorityQueue<>(k + 1);
+        for (int j : arr) {
+            queue.offer(j);
         }
         int[] res = new int[k];
         int size = 0;
-        while (size<k){
-            res[size++] = queue.poll();
+        while (size < k) {
+            if (!queue.isEmpty()) {
+                res[size++] = queue.poll();
+            }
         }
         return res;
     }
+
     public static void main(String[] args) {
-
-        int[] arr = {1,3,5,7,2,4,6,8};
+        int[] arr = {1, 3, 5, 7, 2, 4, 6, 8};
         int k = 4;
-        int[] res = smallestK(arr,k);
-        for(int i:res) {
-            System.out.print(i+" ");
+        int[] res = smallestK(arr, k);
+        for (int i : res) {
+            System.out.print(i + " ");
         }
-
     }
 }
