@@ -1,4 +1,4 @@
-package com.basicJava8;
+package com.basicJava8.www;
 
 import java.util.ArrayList;
 
