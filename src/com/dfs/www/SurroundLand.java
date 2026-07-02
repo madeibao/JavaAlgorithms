@@ -9,7 +9,7 @@ package com.dfs.www;
  * @Date 2026/7/2/星期四 11:08
  * @Version 1.0
  **/
-public class SurroundArea {
+public class SurroundLand {
     public void solve(char[][] board) {
 
         // 行和列
@@ -59,7 +59,7 @@ public class SurroundArea {
                 {'X', 'X', 'O', 'X'},
                 {'X', 'O', 'X', 'X'},
         };
-        new SurroundArea().solve(board);
+        new SurroundLand().solve(board);
         for (char[] ch : board) {
             for (char c : ch) {
                 System.out.print(c + " ");
