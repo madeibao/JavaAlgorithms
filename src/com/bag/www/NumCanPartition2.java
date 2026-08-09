@@ -4,8 +4,8 @@ package com.bag.www;
 public class NumCanPartition2 { 
     public boolean canPartition(int[] nums) {
         int sum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
+        for (int num : nums) {
+            sum += num;
         }
         // 如果是奇数，则无法平分
         if ((sum & 1) == 1) {
@@ -15,9 +15,9 @@ public class NumCanPartition2 {
         int target = sum >> 1;
         boolean[] dp = new boolean[target + 1];
         dp[0] = true;
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = target; j >= nums[i]; j--) {
-                dp[j] = dp[j] || dp[j - nums[i]];
+        for (int num : nums) {
+            for (int j = target; j >= num; j--) {
+                dp[j] = dp[j] || dp[j - num];
             }
         }
         return dp[target];
