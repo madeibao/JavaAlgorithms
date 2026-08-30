@@ -11,9 +11,7 @@ package com.binarysearch.www;
  **/
 public class FindWords {
     public static char nextGreatestLetter(char[] letters, char target) {
-
-        int left = 0, right = letters.length - 1;
-        int i = left, j = right;
+        int i = 0, j = letters.length - 1;
         while (i < j) {
             int temp = i + (j - i) / 2;
             if (letters[temp] > target) {
