@@ -18,7 +18,7 @@ public class KthDay {
         int month = Integer.parseInt(sourceStrString[1]);
         int day = Integer.parseInt(sourceStrString[2]);
         // 判断闰年
-        months[1] = (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) ? 29 : 28;
+        months[2] = (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) ? 29 : 28;
         int num = 0;
         for (int i = 1; i < month; i++) {
             num += months[i];
