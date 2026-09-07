@@ -19,8 +19,7 @@ public class InterBinNumber {
         }
 
         // 返回这个数组的内容。
-        int[] arr = {min, max};
-        return arr;
+        return new int[]{min, max};
     }
 
     public static void main(String[] args) {
