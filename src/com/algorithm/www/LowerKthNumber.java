@@ -14,17 +14,19 @@ import java.util.PriorityQueue;
 public class LowerKthNumber {
     public static int[] smallestK(int[] arr, int k) {
         PriorityQueue<Integer> queue = new PriorityQueue<>(k + 1);
-        for (int i = 0; i < arr.length; i++) {
-            queue.offer(arr[i]);
+        for (int j : arr) {
+            queue.offer(j);
         }
         int[] res = new int[k];
         int size = 0;
         while (size < k) {
-            res[size++] = queue.poll();
+            Integer val = queue.poll();
+            if (val != null) {
+                res[size++] = val;
+            }
         }
         return res;
     }
-
 
     public static void main(String[] args) {
         int[] arr = {1, 3, 5, 7, 2, 4, 6, 8};

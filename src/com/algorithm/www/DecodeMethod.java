@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class DecodeMethod {
 
     public static int numDecodings(String s) {
-        if (s == null || s.length() == 0) {
+        if (s == null || s.isEmpty()) {
             return 0;
         }
         int len = s.length();

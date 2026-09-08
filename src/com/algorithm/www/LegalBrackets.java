@@ -9,10 +9,7 @@ import java.util.Stack;
  * @create: 2020-02-08 15:08
  * @version: 1.0
  **/
-
-
 public class LegalBrackets {
-
     private static boolean isSym(char c1, char c2) {
         return (c1 == '(' && c2 == ')') || (c1 == '[' && c2 == ']') || (c1 == '{' && c2 == '}');
     }
@@ -21,7 +18,7 @@ public class LegalBrackets {
         Stack<Character> stack = new Stack<>();
         char[] chars = s.toCharArray();
         for (char ch : chars) {
-            if (stack.size() == 0) {
+            if (stack.isEmpty()) {
                 stack.push(ch);
             } else if (isSym(stack.peek(), ch)) {
                 stack.pop();
@@ -29,7 +26,7 @@ public class LegalBrackets {
                 stack.push(ch);
             }
         }
-        return stack.size() == 0;
+        return stack.isEmpty();
     }
 
     public static void main(String[] args) {
