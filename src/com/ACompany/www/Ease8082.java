@@ -41,7 +41,7 @@ public class Ease8082 {
         boolean[] vis = new boolean[n + 1];
 
         // 首先来创建一个队列的值。
-        Queue<Integer> q = new LinkedList();
+        Queue<Integer> q = new LinkedList<>();
         for (int i = 0; i < m; i++) {
             int num = sc.nextInt();
             vis[num] = true;
@@ -49,24 +49,22 @@ public class Ease8082 {
         }
         StringBuilder ans = new StringBuilder();
         for (int i = 1; i <= n; i++) {
-
             // 如果对应的位置是真，跳过。
             if (vis[i]) {
                 continue;
             }
             while (!q.isEmpty() && q.peek() < i) {
-                ans.append(q.poll() + " ");
+                ans.append(q.poll()).append(" ");
             }
-
             // 默认的条件下的值。
-            ans.append(i + " ");
+            ans.append(i).append(" ");
         }
         while (!q.isEmpty()) {
-            ans.append(q.poll() + " ");
+            ans.append(q.poll()).append(" ");
         }
         System.out.println(ans);
         // 把最后的一个空格来去掉。
-        System.out.print(ans.toString().substring(0, ans.length() - 1));
+        System.out.print(ans.substring(0, ans.length() - 1));
     }
 }
 
