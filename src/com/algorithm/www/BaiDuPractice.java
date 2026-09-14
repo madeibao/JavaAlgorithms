@@ -22,16 +22,15 @@ public class BaiDuPractice {
             String s = sc.nextLine();
             String str = sc.nextLine();
             String[] arr = str.split(" ");
-            List<Integer> list = new ArrayList();
+            List<Integer> list = new ArrayList<>();
             int min = Integer.MAX_VALUE;
-            for (int i = 0; i < arr.length; i++) {
-                list.add(Integer.parseInt(arr[i]));
+            for (String string : arr) {
+                list.add(Integer.parseInt(string));
             }
-
             for (int i = 1; i < list.size() - 1; i++) {
                 int temp = list.remove(i);
                 int result = fun(list);
-                min = min > result ? result : min;
+                min = Math.min(min, result);
                 list.add(i, temp);
             }
             System.out.println(min);
