@@ -29,7 +29,6 @@ public class StringAdd {
             sb.append(temp % 10);
             carry = temp / 10;
         }
-        sb.insert(0, carry > 0 ? '1' : "");
         return sb.reverse().toString();
     }
 
