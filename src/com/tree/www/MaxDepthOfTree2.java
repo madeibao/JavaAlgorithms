@@ -13,7 +13,6 @@ import java.util.Queue;
  * 二叉树的最大的深度2
  **/
 public class MaxDepthOfTree2 {
-
     public static int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
@@ -23,17 +22,16 @@ public class MaxDepthOfTree2 {
         queue.add(root);
         while (!queue.isEmpty()) {
             int size = queue.size();
-
-            // 根据层次遍历来确定二叉树的深度。
             level++;
             for (int i = 0; i < size; i++) {
-//                TreeNode node = queue.remove();
                 TreeNode node = queue.poll();
-                if (node.left != null) {
-                    queue.add(node.left);
-                }
-                if (node.right != null) {
-                    queue.add(node.right);
+                if (node != null) {
+                    if (node.left != null) {
+                        queue.add(node.left);
+                    }
+                    if (node.right != null) {
+                        queue.add(node.right);
+                    }
                 }
             }
         }
@@ -41,15 +39,12 @@ public class MaxDepthOfTree2 {
     }
 
     public static void main(String[] args) {
-
         TreeNode binTree = new TreeNode(15);
         TreeNode left1 = new TreeNode(13);
         TreeNode right = new TreeNode(14);
         binTree.left = left1;
         binTree.right = right;
-
         System.out.println(maxDepth(binTree));
-
     }
 }
 
